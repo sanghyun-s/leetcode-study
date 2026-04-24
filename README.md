@@ -1,6 +1,6 @@
 # 📚 LeetCode Study Log — @sanghyun-s
 
-> **Goal:** Systematically work through Easy → Medium → Hard, building pattern recognition for technical interviews.  
+> **Goal:** Systematically work through Easy → Medium → Hard, building pattern recognition for technical interviews.
 > **Started:** April 2026  
 > **Mentor review:** Weekly
 
@@ -10,7 +10,7 @@
 
 | Week | Easy ✅ | Medium ✅ | Hard ✅ | Focus Topic | Status |
 |------|---------|----------|---------|-------------|--------|
-| W1   |   0     |    0     |    0    | Arrays & Hashing | 🔄 In progress |
+| W1   |   3     |    0     |    0    | Arrays & Hashing | 🔄 In progress |
 | W2   |         |          |         | Two Pointers & Sliding Window | ⬜ Upcoming |
 | W3   |         |          |         | Stack & Linked Lists | ⬜ Upcoming |
 | W4   |         |          |         | Binary Search | ⬜ Upcoming |
@@ -29,17 +29,17 @@
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 0     |
+| 🟢 Easy    | 3     |
 | 🟡 Medium  | 0     |
 | 🔴 Hard    | 0     |
-| **Total**  | **0** |
+| **Total**  | **3** |
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** 0 days
-- **Patterns learned:** —
+- **Study streak:** 1 day
+- **Patterns learned:** Arrays, Hash Map
 - **Currently studying:** Arrays & Hashing
 - **Next up:** Two Pointers
 
@@ -65,7 +65,9 @@ leetcode-study/
 
 | # | Title | Difficulty | Pattern | Date | Independent? |
 |---|-------|------------|---------|------|--------------|
-| — | — | — | — | — | — |
+| 1  | Two Sum | Easy | Hash Map | 2026-04-23 | 💡 Hints + editorial |
+| 14 | Longest Common Prefix | Easy | Array / String | 2026-04-23 | 💡 Hints + editorial |
+| 26 | Remove Duplicates from Sorted Array | Easy | Two Pointers | 2026-04-23 | 💡 Hints + editorial |
 
 > ✅ Solved independently · 💡 Needed hints · 📖 Reviewed solution
 
@@ -75,7 +77,7 @@ leetcode-study/
 
 | Pattern | # Problems Solved | Key Insight |
 |---------|-------------------|-------------|
-| — | — | — |
+W1 | Day 1 complete — 3 Easy solved | Arrays | Two Sum, Longest Common Prefix, Remove Duplicates
 
 ---
 
@@ -93,7 +95,8 @@ Each problem is saved under `problems/easy/` (or medium/hard) as `XXXX-problem-n
 - **Time spent:** N min
 
 ## Approach
-(Explain in your own words — no copied code)
+Solve in Python(3) first (fastest for logic), then re-implement the same problem in C++ or JS the next attempt.
+Minimize the use of hints and editorial. After used, review the anatomy of each code (Python3, JS, and C++)
 
 ## Complexity
 - Time: O(?)
