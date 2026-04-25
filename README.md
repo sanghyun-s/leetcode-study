@@ -10,7 +10,7 @@
 
 | Week | Easy ✅ | Medium ✅ | Hard ✅ | Focus Topic | Status |
 |------|---------|----------|---------|-------------|--------|
-| W1   |   3     |    0     |    0    | Arrays & Hashing | 🔄 In progress |
+| W1   |   7     |    0     |    0    | Arrays & Hashing | 🔄 In progress |
 | W2   |         |          |         | Two Pointers & Sliding Window | ⬜ Upcoming |
 | W3   |         |          |         | Stack & Linked Lists | ⬜ Upcoming |
 | W4   |         |          |         | Binary Search | ⬜ Upcoming |
@@ -29,17 +29,17 @@
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 3     |
+| 🟢 Easy    | 7     |
 | 🟡 Medium  | 0     |
 | 🔴 Hard    | 0     |
-| **Total**  | **3** |
+| **Total**  | **7** |
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** 1 day
-- **Patterns learned:** Arrays, Hash Map
+- **Study streak:** 2 days 🔥
+- **Patterns learned:** Arrays, Hash Map, Two Pointers, Binary Search
 - **Currently studying:** Arrays & Hashing
 - **Next up:** Two Pointers
 
@@ -68,6 +68,10 @@ leetcode-study/
 | 1  | Two Sum | Easy | Hash Map | 2026-04-23 | 💡 Hints + editorial |
 | 14 | Longest Common Prefix | Easy | Array / String | 2026-04-23 | 💡 Hints + editorial |
 | 26 | Remove Duplicates from Sorted Array | Easy | Two Pointers | 2026-04-23 | 💡 Hints + editorial |
+| 27 | Remove Element | Easy | Two Pointers | 2026-04-24 | 💡 Hints + editorial |
+| 35 | Search Insert Position | Easy | Binary Search | 2026-04-24 | 💡 Hints + editorial |
+| 66 | Plus One | Easy | Array / Math | 2026-04-24 | 💡 Hints + editorial |
+| 88 | Merge Sorted Array | Easy | Two Pointers / Sorting | 2026-04-24 | ✅ Accepted |
 
 > ✅ Solved independently · 💡 Needed hints · 📖 Reviewed solution
 
@@ -78,6 +82,7 @@ leetcode-study/
 | Pattern | # Problems Solved | Key Insight |
 |---------|-------------------|-------------|
 W1 | Day 1 complete — 3 Easy solved | Arrays | Two Sum, Longest Common Prefix, Remove Duplicates
+W1 | Day 2 — 4 Easy solved | Arrays | Remove Element, Search Insert, Plus One, Merge Sorted Array
 
 ---
 
