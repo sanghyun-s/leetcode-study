@@ -11,25 +11,25 @@
 
 | Week | Easy | Medium | Hard | Topic | Status |
 |------|------|--------|------|-------|--------|
-| W1   | 7    | 4      | 0    | Arrays & Hashing | ✅ Complete |
-| W2   | 0    | 0      | 0    | Sliding Window & Stack | ⬜ Upcoming |
-| W3   | -    | -      | -    | Linked Lists | ⬜ Upcoming |
+| W1 | 11 | 5 | 0 | Arrays & Hashing | ✅ Complete |
+| W2 | 0 | 0 | 0 | Sliding Window & Stack | ⬜ Upcoming |
+| W3 | — | — | — | Linked Lists | ⬜ Upcoming |
 
 ---
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 7
-- 🟡 Medium: 4
+- 🟢 Easy: 11
+- 🟡 Medium: 5
 - 🔴 Hard: 0
-- **Total: 11**
+- **Total: 16**
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** Day 1 ✅
-- **Patterns learned:** Arrays, Hash Map, Two Pointers, Binary Search, Backtracking
+- **Study streak:** Day 2 🔥
+- **Patterns learned:** Arrays, Hash Map, Two Pointers, Binary Search, Backtracking, Sorting, DP
 - **Currently on:** W1 Complete
 - **Next up:** W2 - Sliding Window
 
@@ -37,7 +37,7 @@
 
 ## 📋 Problem Log
 
-### Easy (7)
+### Easy (11)
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
@@ -48,8 +48,12 @@
 | 35 | Search Insert Position | Binary Search | 2026-05-15 | [View](problems/easy/0035-search-insert-position.md) ✅ |
 | 66 | Plus One | Array/Math | 2026-05-15 | [View](problems/easy/0066-plus-one.md) ✅ |
 | 88 | Merge Sorted Array | Two Pointers | 2026-05-15 | [View](problems/easy/0088-merge-sorted-array.md) ✅ |
+| 905 | Transform Array by Parity | Sorting | 2026-05-15 | [View](problems/easy/0905-transform-array-by-parity.md) ✅ |
+| 1679 | Count Pairs Sum < Target | Sorting | 2026-05-15 | [View](problems/easy/1679-count-pairs-sum-less-than-target.md) ✅ |
+| 2050 | Count Numbers Unique Digits | Brute Force | 2026-05-15 | [View](problems/easy/2050-count-numbers-with-unique-digits.md) ✅ |
+| 2418 | Sort the People | Sorting/Hash Map | 2026-05-15 | [View](problems/easy/2418-sort-the-people.md) ✅ |
 
-### Medium (4)
+### Medium (5)
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
@@ -57,6 +61,9 @@
 | 15 | Three Sum | Two Pointers | 2026-05-15 | [View](problems/medium/0015-three-sum.md) ✅ |
 | 39 | Combination Sum | Backtracking | 2026-05-15 | [View](problems/medium/0039-combination-sum.md) ✅ |
 | 46 | Permutations | Backtracking | 2026-05-15 | [View](problems/medium/0046-permutations.md) ✅ |
+| 2541 | Min Cost Split into Ones | DP | 2026-05-15 | [View](problems/medium/2541-minimum-cost-to-split-into-ones.md) ✅ |
+| 2545 | Sort Students by Kth Score | Sorting | 2026-05-15 | [View](problems/medium/2545-sort-students-by-kth-score.md) ✅ |
+
 ---
 
 ## 🧩 Pattern Summary
@@ -67,8 +74,10 @@
 | Two Pointers | 3 | 2 | 0 | 5 |
 | Binary Search | 1 | 0 | 0 | 1 |
 | Backtracking | 0 | 2 | 0 | 2 |
-| Array/String | 2 | 0 | 0 | 2 |
+| Sorting | 4 | 2 | 0 | 6 |
+| DP | 1 | 1 | 0 | 2 |
 | Greedy | 0 | 1 | 0 | 1 |
+| Brute Force | 1 | 0 | 0 | 1 |
 
 ---
 
@@ -76,6 +85,14 @@
 
 - **Patterns Cheat Sheet:** See `notes/patterns.md`
 - **Problem Details:** See individual files in `problems/easy/` and `problems/medium/`
+
+Each problem file includes:
+- ✅ Understanding the Goal
+- ✅ LAYER 1: Line-by-line code explanation
+- ✅ LAYER 2: Worked examples with traces
+- ✅ LAYER 3: Key insights & complexity
+- ✅ LAYER 4: Interview variations
+- ✅ LAYER 5: Cheat sheet entry
 
 ---
 
