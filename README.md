@@ -11,7 +11,7 @@
 
 | Week | Easy | Medium | Hard | Topic | Status |
 |------|------|--------|------|-------|--------|
-| W1 | 11 | 5 | 0 | Arrays & Hashing | ✅ Complete |
+| W1 | 13 | 7 | 0 | Arrays, Sort, Hashing & DFS | ✅ Complete |
 | W2 | 0 | 0 | 0 | Sliding Window & Stack | ⬜ Upcoming |
 | W3 | — | — | — | Linked Lists | ⬜ Upcoming |
 
@@ -19,19 +19,19 @@
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 11
-- 🟡 Medium: 5
+- 🟢 Easy: 13
+- 🟡 Medium: 7
 - 🔴 Hard: 0
-- **Total: 16**
+- **Total: 20**
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** Day 2 🔥
-- **Patterns learned:** Arrays, Hash Map, Two Pointers, Binary Search, Backtracking, Sorting, DP
-- **Currently on:** W1 Complete
-- **Next up:** W2 - Sliding Window
+- **Study streak:** Day 3 🔥
+- **Patterns learned:** Arrays, Hash Map, Two Pointers, Binary Search, Backtracking, Sorting, DP, Depth-First Search (DFS)
+- **Focus:** Tree traversal & manipulation
+- **Last session:** W1-Day2 (6 sorting problems)
 
 ---
 
@@ -52,6 +52,8 @@
 | 1679 | Count Pairs Sum < Target | Sorting | 2026-05-15 | [View](problems/easy/1679-count-pairs-sum-less-than-target.md) ✅ |
 | 2050 | Count Numbers Unique Digits | Brute Force | 2026-05-15 | [View](problems/easy/2050-count-numbers-with-unique-digits.md) ✅ |
 | 2418 | Sort the People | Sorting/Hash Map | 2026-05-15 | [View](problems/easy/2418-sort-the-people.md) ✅ |
+| 938 | Range Sum of BST | Trees/DFS | 2026-05-15 | [View](0938-range-sum-of-bst.md) ✅ |
+| 1379 | Find Corresponding Node in Clone | Trees/DFS | 2026-05-15 | [View](1379-find-corresponding-node-of-binary-tree-in-clone.md) ✅ |
 
 ### Medium (5)
 
@@ -63,7 +65,8 @@
 | 46 | Permutations | Backtracking | 2026-05-15 | [View](problems/medium/0046-permutations.md) ✅ |
 | 2541 | Min Cost Split into Ones | DP | 2026-05-15 | [View](problems/medium/2541-minimum-cost-to-split-into-ones.md) ✅ |
 | 2545 | Sort Students by Kth Score | Sorting | 2026-05-15 | [View](problems/medium/2545-sort-students-by-kth-score.md) ✅ |
-
+| 1038 | BST to Greater Sum Tree | Trees/DFS | 2026-05-15 | [View](1038-bst-to-greater-sum-tree.md) ✅ |
+| 2265 | Count Nodes Equal to Average | Trees/DFS | 2026-05-15 | [View](2265-count-nodes-equal-to-average-of-subtree.md) ✅ |
 ---
 
 ## 🧩 Pattern Summary
@@ -78,6 +81,21 @@
 | DP | 1 | 1 | 0 | 2 |
 | Greedy | 0 | 1 | 0 | 1 |
 | Brute Force | 1 | 0 | 0 | 1 |
+| Trees/DFS | 2 | 2 | 0 | 4 |
+
+---
+
+## 📚 Key Learnings
+
+### Problem-Solving Strategy
+- **Editorial + Review:** Solved first 2 problems with editorial, then solved last 2 independently
+- **Post-order traversal:** Essential for combining subtree results
+- **BST properties:** Can prune branches for optimization
+
+### Code Patterns
+- Tuple returns: `(sum, count)` for accumulating subtree info
+- Parallel traversal: Navigate both original and cloned trees
+- Nonlocal variables: Accessing outer scope in nested functions
 
 ---
 
@@ -85,6 +103,20 @@
 
 - **Patterns Cheat Sheet:** See `notes/patterns.md`
 - **Problem Details:** See individual files in `problems/easy/` and `problems/medium/`
+- **Editorial + Review:** Solved first 2 problems with editorial, then solved last 2 independently
+- **Post-order traversal:** Essential for combining subtree results
+- **BST properties:** Can prune branches for optimization
+
+### What Worked
+- Editorial for understanding baseline approach
+- Independent coding for double coding problem
+- Tracing through examples step-by-step
+
+### Challenges
+- Indentation issues (Python sensitivity)
+- Post-order vs pre-order traversal logic
+- Tuple unpacking in recursive calls
+
 
 Each problem file includes:
 - ✅ Understanding the Goal
