@@ -12,7 +12,7 @@
 | Day | Date | Easy | Medium | Hard | Category | Status |
 |-----|------|------|--------|------|----------|--------|
 | Day 1 | 05/15 | 7 | 4 | 0 | Arrays, Hash Map, Sorting, Backtracking | ✅ Complete |
-| Day 2 (Makeup) | 05/16 | 6 | 1 | 0 | Sorting, Brute Force | ✅ Complete |
+| Day 2 | 05/16 | 6 | 1 | 0 | Sorting, Brute Force (Makeup)| ✅ Complete |
 | Day 3 | 05/15 | 2 | 2 | 0 | DFS/Trees | ✅ Complete |
 | Day 4A | 05/16 | 6 | 0 | 1 | SQL/MySQL | ✅ Complete |
 | Day 4B | 05/16 | 2 | 1 | 0 | Matrix Traversal | ✅ Complete |
@@ -104,7 +104,7 @@
 
 ---
 
-## **DATABASE SESSION | May 16, 2026 | 7 Problems (6 Easy + 1 Hard)**
+## **Day 4A | May 16, 2026 | 7 Database (MySQL) Problems (6 Easy + 1 Hard)**
 
 ### Easy (6) - SQL
 
@@ -125,7 +125,7 @@
 
 ---
 
-## **MATRIX SESSION | May 16, 2026 | 3 Problems (2 Easy + 1 Medium)**
+## **Day 4B SESSION | May 16, 2026 | 3 Matrix Problems (2 Easy + 1 Medium)**
 
 ### Easy (2)
 
