@@ -14,8 +14,8 @@
 | Day 1 | 05/15 | 7 | 4 | 0 | Arrays, Hash Map, Sorting, Backtracking | ✅ Complete |
 | Day 2 (Makeup) | 05/16 | 6 | 1 | 0 | Sorting, Brute Force | ✅ Complete |
 | Day 3 | 05/15 | 2 | 2 | 0 | DFS/Trees | ✅ Complete |
-| Database | 05/16 | 6 | 0 | 1 | SQL/MySQL | ✅ Complete |
-| Matrix | 05/16 | 2 | 1 | 0 | Matrix Traversal | ✅ Complete |
+| Day 4A | 05/16 | 6 | 0 | 1 | SQL/MySQL | ✅ Complete |
+| Day 4B | 05/16 | 2 | 1 | 0 | Matrix Traversal | ✅ Complete |
 
 ---
 
