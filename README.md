@@ -22,8 +22,8 @@
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 26
-- 🟡 Medium: 11
+- 🟢 Easy: 24
+- 🟡 Medium: 13
 - 🔴 Hard: 1
 - **Total: 38**
 

@@ -1,6 +1,6 @@
 # 2989. Class Performance
 
-**Difficulty:** Easy  
+**Difficulty:** Medium  
 **Pattern:** SQL / Calculation / MAX / MIN  
 **Date Solved:** 2026-05-16  
 **Status:** ✅

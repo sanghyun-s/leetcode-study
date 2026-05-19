@@ -1,6 +1,6 @@
 # 3204. Bitwise User Permissions Analysis
 
-**Difficulty:** Easy  
+**Difficulty:** Medium  
 **Pattern:** SQL / Bitwise Operations / Aggregate Functions  
 **Date Solved:** 2026-05-16  
 **Status:** ✅
