@@ -12,19 +12,20 @@
 | Day | Date | Easy | Medium | Hard | Category | Status |
 |-----|------|------|--------|------|----------|--------|
 | Day 1 | 05/15 | 7 | 4 | 0 | Arrays, Hash Map, Sorting, Backtracking | ✅ Complete |
-| Day 2 | 05/16 | 6 | 1 | 0 | Sorting, Brute Force (Makeup)| ✅ Complete |
+| Day 2 (Makeup) | 05/16 | 6 | 1 | 0 | Sorting, Brute Force | ✅ Complete |
 | Day 3 | 05/15 | 2 | 2 | 0 | DFS/Trees | ✅ Complete |
 | Day 4A | 05/16 | 6 | 0 | 1 | SQL/MySQL | ✅ Complete |
 | Day 4B | 05/16 | 2 | 1 | 0 | Matrix Traversal | ✅ Complete |
+| Day 5 | 05/18 | 3 | 3 | 0 | Greedy Algorithm | ✅ Complete |
 
 ---
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 23
-- 🟡 Medium: 8
+- 🟢 Easy: 26
+- 🟡 Medium: 11
 - 🔴 Hard: 1
-- **Total: 32**
+- **Total: 38**
 
 ---
 
@@ -104,7 +105,7 @@
 
 ---
 
-## **Day 4A | May 16, 2026 | 7 Database (MySQL) Problems (6 Easy + 1 Hard)**
+## **DATABASE SESSION | May 16, 2026 | 7 Problems (6 Easy + 1 Hard)**
 
 ### Easy (6) - SQL
 
@@ -125,7 +126,7 @@
 
 ---
 
-## **Day 4B SESSION | May 16, 2026 | 3 Matrix Problems (2 Easy + 1 Medium)**
+## **MATRIX SESSION | May 16, 2026 | 3 Problems (2 Easy + 1 Medium)**
 
 ### Easy (2)
 
@@ -142,6 +143,26 @@
 
 ---
 
+## **Day 5 | May 18, 2026 | 6 Greedy Problems (3 Easy + 3 Medium)**
+
+### Easy (3)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1221 | Split a String in Balanced Strings | Balance Tracking | 2026-05-18 | [View](1221-split-a-string-in-balanced-strings.md) ✅ |
+| 2037 | Seat Everyone | Sort + Pair | 2026-05-18 | [View](2037-minimum-number-of-moves-to-seat-everyone.md) ✅ |
+| 2160 | Minimum Sum Four Digits | Digit Placement | 2026-05-18 | [View](2160-minimum-sum-of-four-digit-number-after-splitting-digits.md) ✅ |
+
+### Medium (3)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1689 | Partitioning Deci-Binary | Max Digit Insight | 2026-05-18 | [View](1689-partitioning-into-minimum-number-of-deci-binary-numbers.md) ✅ |
+| 1874 | Minimize Product Sum | Pair Opposites | 2026-05-18 | [View](1874-minimize-product-sum-of-two-arrays.md) ✅ |
+| 1282 | Group People by Size | Bucket + Split | 2026-05-18 | [View](1282-group-the-people-given-the-group-size-they-belong-to.md) ✅ |
+
+---
+
 ## 🧩 Pattern Summary
 
 | Pattern | Easy | Medium | Hard | Total |
@@ -152,7 +173,12 @@
 | Backtracking | 0 | 2 | 0 | 2 |
 | Sorting | 4 | 2 | 0 | 6 |
 | DP | 1 | 1 | 0 | 2 |
-| Greedy | 0 | 1 | 0 | 1 |
+| Greedy/Balance | 1 | 0 | 0 | 1 |
+| Greedy/Sort | 1 | 0 | 0 | 1 |
+| Greedy/Digit | 1 | 0 | 0 | 1 |
+| Greedy/Bucket | 0 | 1 | 0 | 1 |
+| Greedy/Max Digit | 0 | 1 | 0 | 1 |
+| Greedy/Pair | 0 | 1 | 0 | 1 |
 | Brute Force | 1 | 0 | 0 | 1 |
 | Trees/DFS | 2 | 2 | 0 | 4 |
 | SQL/Bitwise | 1 | 0 | 0 | 1 |
@@ -193,6 +219,14 @@
 - Spiral traversal with direction vectors
 - Step size patterns (1,1,2,2,3,3...)
 
+### Day 5: Greedy Algorithm
+- Max digit = bottleneck (deci-binary)
+- Pair opposites for minimization
+- Balance tracking for greedy splits
+- Sorting for optimal assignment
+- Digit placement strategy
+- Bucketing + greedy filling
+
 ---
 
 ## 📚 Notes
@@ -209,6 +243,6 @@ Each problem file includes:
 
 ---
 
-**Last Updated:** May 16, 2026 | 32 Problems Solved ✅
+**Last Updated:** May 18, 2026 | 38 Problems Solved ✅
 
-**Next Week:** W2 - Sliding Window & Stack Problems
+**Next:** W2 - Sliding Window & Stack Problems
