@@ -14,7 +14,7 @@
 | Day 1 | 05/15 | 7 | 4 | 0 | Arrays, Hash Map, Sorting, Backtracking | ✅ Complete |
 | Day 2 (Makeup) | 05/16 | 6 | 1 | 0 | Sorting, Brute Force | ✅ Complete |
 | Day 3 | 05/15 | 2 | 2 | 0 | DFS/Trees | ✅ Complete |
-| Day 4A | 05/16 | 6 | 0 | 1 | SQL/MySQL | ✅ Complete |
+| Day 4A | 05/16 | 4 | 2 | 1 | SQL/MySQL | ✅ Complete |
 | Day 4B | 05/16 | 2 | 1 | 0 | Matrix Traversal | ✅ Complete |
 | Day 5 | 05/18 | 3 | 3 | 0 | Greedy Algorithm | ✅ Complete |
 
@@ -31,8 +31,8 @@
 
 ## 🔥 Current Stats
 
-- **Study streak:** Day 3 🔥
-- **Patterns learned:** Arrays, Hash Map, Two Pointers, Binary Search, Backtracking, Sorting, DP, DFS Trees, Window Functions, JOIN, String Manipulation, Spiral Traversal
+- **Study streak:** Day 5 🔥
+- **Patterns learned:** Arrays, Hash Map, Two Pointers, Binary Search, Backtracking, Sorting, DP, DFS Trees, Window Functions, JOIN, String Manipulation, Spiral Traversal, Greedy
 - **Languages:** Python3, SQL/MySQL
 - **Next up:** W2 - Sliding Window & Stack
 
@@ -93,36 +93,41 @@
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
-| 938 | Range Sum of BST | Trees/DFS | 2026-05-15 | [View](0938-range-sum-of-bst.md) ✅ |
-| 1379 | Find Corresponding Node in Clone | Trees/DFS | 2026-05-15 | [View](1379-find-corresponding-node-of-binary-tree-in-clone.md) ✅ |
+| 938 | Range Sum of BST | Trees/DFS | 2026-05-15 | [View](problems/easy/0938-range-sum-of-bst.md) ✅ |
+| 1379 | Find Corresponding Node in Clone | Trees/DFS | 2026-05-15 | [View](problems/easy/1379-find-corresponding-node-of-binary-tree-in-clone.md) ✅ |
 
 ### Medium (2)
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
-| 1038 | BST to Greater Sum Tree | Trees/DFS | 2026-05-15 | [View](1038-bst-to-greater-sum-tree.md) ✅ |
-| 2265 | Count Nodes Equal to Average | Trees/DFS | 2026-05-15 | [View](2265-count-nodes-equal-to-average-of-subtree.md) ✅ |
+| 1038 | BST to Greater Sum Tree | Trees/DFS | 2026-05-15 | [View](problems/medium/1038-bst-to-greater-sum-tree.md) ✅ |
+| 2265 | Count Nodes Equal to Average | Trees/DFS | 2026-05-15 | [View](problems/medium/2265-count-nodes-equal-to-average-of-subtree.md) ✅ |
 
 ---
 
-## **DATABASE SESSION | May 16, 2026 | 7 Problems (6 Easy + 1 Hard)**
+## **DATABASE SESSION | May 16, 2026 | 7 Problems (4 Easy + 2 Medium + 1 Hard)**
 
-### Easy (6) - SQL
+### Easy (4) - SQL
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
-| 3204 | Bitwise User Permissions | Bitwise/Aggregate | 2026-05-16 | [View](3204-bitwise-user-permissions-analysis.md) ✅ |
-| 1350 | Students Invalid Departments | JOIN/Anti-join | 2026-05-16 | [View](1350-students-with-invalid-departments.md) ✅ |
-| 1303 | Find Team Size | Window Functions | 2026-05-16 | [View](1303-find-the-team-size.md) ✅ |
-| 1757 | Recyclable and Low Fat | WHERE/AND | 2026-05-16 | [View](1757-recyclable-and-low-fat-products.md) ✅ |
-| 2989 | Class Performance | Calculation | 2026-05-16 | [View](2989-class-performance.md) ✅ |
-| 1571 | Warehouse Manager | JOIN/GROUP BY | 2026-05-16 | [View](1571-warehouse-manager.md) ✅ |
+| 1350 | Students Invalid Departments | JOIN/Anti-join | 2026-05-16 | [View](problems/easy/1350-students-with-invalid-departments.md) ✅ |
+| 1303 | Find Team Size | Window Functions | 2026-05-16 | [View](problems/easy/1303-find-the-team-size.md) ✅ |
+| 1757 | Recyclable and Low Fat | WHERE/AND | 2026-05-16 | [View](problems/easy/1757-recyclable-and-low-fat-products.md) ✅ |
+| 1571 | Warehouse Manager | JOIN/GROUP BY | 2026-05-16 | [View](problems/easy/1571-warehouse-manager.md) ✅ |
+
+### Medium (2) - SQL
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 3204 | Bitwise User Permissions | Bitwise/Aggregate | 2026-05-16 | [View](problems/medium/3204-bitwise-user-permissions-analysis.md) ✅ |
+| 2989 | Class Performance | Calculation | 2026-05-16 | [View](problems/medium/2989-class-performance.md) ✅ |
 
 ### Hard (1) - SQL
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
-| 3368 | First Letter Capitalization | Recursive CTE | 2026-05-16 | [View](3368-first-letter-capitalization.md) ✅ |
+| 3368 | First Letter Capitalization | Recursive CTE | 2026-05-16 | [View](problems/hard/3368-first-letter-capitalization.md) ✅ |
 
 ---
 
@@ -132,14 +137,14 @@
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
-| 1672 | Richest Customer Wealth | Row Sum/Max | 2026-05-16 | [View](1672-richest-customer-wealth.md) ✅ |
-| 2373 | Largest Local Values | Sliding Window | 2026-05-16 | [View](2373-largest-local-values-in-a-matrix.md) ✅ |
+| 1672 | Richest Customer Wealth | Row Sum/Max | 2026-05-16 | [View](problems/easy/1672-richest-customer-wealth.md) ✅ |
+| 2373 | Largest Local Values | Sliding Window | 2026-05-16 | [View](problems/easy/2373-largest-local-values-in-a-matrix.md) ✅ |
 
 ### Medium (1)
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
-| 885 | Spiral Matrix III | Simulation/Spiral | 2026-05-16 | [View](0885-spiral-matrix-iii.md) ✅ |
+| 885 | Spiral Matrix III | Simulation/Spiral | 2026-05-16 | [View](problems/medium/0885-spiral-matrix-iii.md) ✅ |
 
 ---
 
@@ -149,17 +154,17 @@
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
-| 1221 | Split a String in Balanced Strings | Balance Tracking | 2026-05-18 | [View](1221-split-a-string-in-balanced-strings.md) ✅ |
-| 2037 | Seat Everyone | Sort + Pair | 2026-05-18 | [View](2037-minimum-number-of-moves-to-seat-everyone.md) ✅ |
-| 2160 | Minimum Sum Four Digits | Digit Placement | 2026-05-18 | [View](2160-minimum-sum-of-four-digit-number-after-splitting-digits.md) ✅ |
+| 1221 | Split a String in Balanced Strings | Balance Tracking | 2026-05-18 | [View](problems/easy/1221-split-a-string-in-balanced-strings.md) ✅ |
+| 2037 | Seat Everyone | Sort + Pair | 2026-05-18 | [View](problems/easy/2037-minimum-number-of-moves-to-seat-everyone.md) ✅ |
+| 2160 | Minimum Sum Four Digits | Digit Placement | 2026-05-18 | [View](problems/easy/2160-minimum-sum-of-four-digit-number-after-splitting-digits.md) ✅ |
 
 ### Medium (3)
 
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
-| 1689 | Partitioning Deci-Binary | Max Digit Insight | 2026-05-18 | [View](1689-partitioning-into-minimum-number-of-deci-binary-numbers.md) ✅ |
-| 1874 | Minimize Product Sum | Pair Opposites | 2026-05-18 | [View](1874-minimize-product-sum-of-two-arrays.md) ✅ |
-| 1282 | Group People by Size | Bucket + Split | 2026-05-18 | [View](1282-group-the-people-given-the-group-size-they-belong-to.md) ✅ |
+| 1689 | Partitioning Deci-Binary | Max Digit Insight | 2026-05-18 | [View](problems/medium/1689-partitioning-into-minimum-number-of-deci-binary-numbers.md) ✅ |
+| 1874 | Minimize Product Sum | Pair Opposites | 2026-05-18 | [View](problems/medium/1874-minimize-product-sum-of-two-arrays.md) ✅ |
+| 1282 | Group People by Size | Bucket + Split | 2026-05-18 | [View](problems/medium/1282-group-the-people-given-the-group-size-they-belong-to.md) ✅ |
 
 ---
 
@@ -181,10 +186,10 @@
 | Greedy/Pair | 0 | 1 | 0 | 1 |
 | Brute Force | 1 | 0 | 0 | 1 |
 | Trees/DFS | 2 | 2 | 0 | 4 |
-| SQL/Bitwise | 1 | 0 | 0 | 1 |
+| SQL/Bitwise | 0 | 1 | 0 | 1 |
 | SQL/JOIN | 1 | 0 | 0 | 1 |
 | SQL/Window Fn | 1 | 0 | 0 | 1 |
-| SQL/Calculation | 1 | 0 | 0 | 1 |
+| SQL/Calculation | 0 | 1 | 0 | 1 |
 | SQL/Recursive CTE | 0 | 0 | 1 | 1 |
 | Matrix/Row Sum | 1 | 0 | 0 | 1 |
 | Matrix/Sliding Win | 1 | 0 | 0 | 1 |
