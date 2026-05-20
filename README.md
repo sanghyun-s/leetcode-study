@@ -190,18 +190,23 @@
 
 | Pattern | Easy | Medium | Hard | Total |
 |---------|------|--------|------|-------|
-| Hash Map | 1 | 0 | 0 | 1 |
-| Two Pointers | 3 | 2 | 0 | 5 |
+| Hash Map | 2 | 0 | 0 | 2 |
+| Hash Set | 1 | 1 | 0 | 2 |
+| Two Pointers | 3 | 1 | 0 | 4 |
 | Binary Search | 1 | 0 | 0 | 1 |
 | Backtracking | 0 | 2 | 0 | 2 |
-| Sorting | 4 | 2 | 0 | 6 |
-| DP | 1 | 1 | 0 | 2 |
+| Sorting | 4 | 1 | 0 | 5 |
+| Sorting/Hash Map | 1 | 0 | 0 | 1 |
+| DP | 0 | 1 | 0 | 1 |
+| Greedy/TP | 0 | 1 | 0 | 1 |
 | Greedy/Balance | 1 | 0 | 0 | 1 |
 | Greedy/Sort | 1 | 0 | 0 | 1 |
 | Greedy/Digit | 1 | 0 | 0 | 1 |
 | Greedy/Bucket | 0 | 1 | 0 | 1 |
 | Greedy/Max Digit | 0 | 1 | 0 | 1 |
 | Greedy/Pair | 0 | 1 | 0 | 1 |
+| String | 1 | 0 | 0 | 1 |
+| Array/Math | 1 | 0 | 0 | 1 |
 | Brute Force | 1 | 0 | 0 | 1 |
 | Trees/DFS | 2 | 2 | 0 | 4 |
 | SQL/Bitwise | 0 | 1 | 0 | 1 |
@@ -212,6 +217,7 @@
 | Matrix/Row Sum | 1 | 0 | 0 | 1 |
 | Matrix/Sliding Win | 1 | 0 | 0 | 1 |
 | Matrix/Spiral | 0 | 1 | 0 | 1 |
+| **Total** | **26** | **14** | **1** | **41** |
 
 ---
 
