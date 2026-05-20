@@ -17,21 +17,22 @@
 | Day 4A | 05/16 | 4 | 2 | 1 | SQL/MySQL | ✅ Complete |
 | Day 4B | 05/16 | 2 | 1 | 0 | Matrix Traversal | ✅ Complete |
 | Day 5 | 05/18 | 3 | 3 | 0 | Greedy Algorithm | ✅ Complete |
+| Day 6 | 05/19 | 2 | 1 | 0 | Hash Map / Hash Set | ✅ Complete |
 
 ---
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 24
-- 🟡 Medium: 13
+- 🟢 Easy: 26
+- 🟡 Medium: 14
 - 🔴 Hard: 1
-- **Total: 38**
+- **Total: 41**
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** Day 5 🔥
+- **Study streak:** Day 6 🔥
 - **Patterns learned:** Arrays, Hash Map, Two Pointers, Binary Search, Backtracking, Sorting, DP, DFS Trees, Window Functions, JOIN, String Manipulation, Spiral Traversal, Greedy
 - **Languages:** Python3, SQL/MySQL
 - **Next up:** W2 - Sliding Window & Stack
@@ -168,6 +169,23 @@
 
 ---
 
+## **Day 6 | May 19, 2026 | 3 Problems (2 Easy + 1 Medium)**
+
+### Easy (2)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1512 | Number of Good Pairs | Hash Map / Counting | 2026-05-19 | [View](problems/easy/1512-number-of-good-pairs.md) ✅ |
+| 3668 | Restore Finishing Order | Hash Set / Filter | 2026-05-19 | [View](problems/easy/3668-restore-finishing-order.md) ✅ |
+
+### Medium (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 3760 | Maximum Substrings With Distinct Start | Hash Set / Distinct Count | 2026-05-19 | [View](problems/medium/3760-maximum-substrings-with-distinct-start.md) ✅ |
+
+---
+
 ## 🧩 Pattern Summary
 
 | Pattern | Easy | Medium | Hard | Total |
@@ -248,6 +266,6 @@ Each problem file includes:
 
 ---
 
-**Last Updated:** May 18, 2026 | 38 Problems Solved ✅
+**Last Updated:** May 19, 2026 | 41 Problems Solved ✅
 
 **Next:** W2 - Sliding Window & Stack Problems
