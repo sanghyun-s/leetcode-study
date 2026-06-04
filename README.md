@@ -18,24 +18,26 @@
 | Day 4B | 05/16 | 2 | 1 | 0 | Matrix Traversal | ✅ Complete |
 | Day 5 | 05/18 | 3 | 3 | 0 | Greedy Algorithm | ✅ Complete |
 | Day 6 | 05/19 | 2 | 1 | 0 | Hash Map / Hash Set | ✅ Complete |
+| *(Gap: final exams + app projects)* | 05/20–06/03 | — | — | — | Returned 6/4 — honest log | 📝 Noted |
+| Day 8 | 06/04 | 10 | 0 | 0 | Mixed Patterns (DP, Bit, Prefix Sum, Matrix) | ✅ Complete |
 
 ---
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 26
+- 🟢 Easy: 36
 - 🟡 Medium: 14
 - 🔴 Hard: 1
-- **Total: 41**
+- **Total: 51**
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** Day 6 🔥
-- **Patterns learned:** Arrays, Hash Map, Two Pointers, Binary Search, Backtracking, Sorting, DP, DFS Trees, Window Functions, JOIN, String Manipulation, Spiral Traversal, Greedy
+- **Study streak:** Day 8 🔥 (resumed after exam-week gap)
+- **Patterns learned:** Arrays, Hash Map, Hash Set, Two Pointers, Binary Search, Backtracking, Sorting, DP/Fibonacci, DFS Trees, Window Functions, JOIN, String Manipulation, Spiral Traversal, Greedy, Bit Manipulation, Counting Sort, Matrix Diagonal, Prefix Sum, Enumeration, Subset Bitmask
 - **Languages:** Python3, SQL/MySQL
-- **Next up:** W2 - Sliding Window & Stack
+- **Next up:** Sliding Window & Stack — Medium-difficulty pattern drill
 
 ---
 
@@ -186,18 +188,64 @@
 
 ---
 
+## **Day 8 | June 4, 2026 | 10 Problems (10 Easy) — Resumed after exam-week gap**
+
+> **Catch-up session.** Took a 2-week break for finals + capstone polish + LinkedIn launch. Resumed with a deliberate "variety + volume" run across 7 different patterns to rebuild momentum.
+
+### Easy — DP / Bit Manipulation (2)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 70 | Climbing Stairs | DP / Fibonacci | 2026-06-04 | [View](problems/easy/0070-climbing-stairs.md) ✅ |
+| 338 | Counting Bits | DP / Bit Manipulation | 2026-06-04 | [View](problems/easy/0338-counting-bits.md) ✅ |
+
+### Easy — Sorting / Greedy (3)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 349 | Intersection of Two Arrays | Two Pointers / Hash Set | 2026-06-04 | [View](problems/easy/0349-intersection-of-two-arrays.md) ✅ |
+| 561 | Array Partition | Greedy / Sorting | 2026-06-04 | [View](problems/easy/0561-array-partition.md) ✅ |
+| 1051 | Height Checker | Sorting / Counting Sort | 2026-06-04 | [View](problems/easy/1051-height-checker.md) ✅ |
+
+### Easy — Enumeration (2)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1863 | Sum of All Subset XOR Totals | Bit Manipulation / Subset Enum | 2026-06-04 | [View](problems/easy/1863-sum-of-all-subset-xor-totals.md) ✅ |
+| 2843 | Count Symmetric Integers | Enumeration / Digit Manipulation | 2026-06-04 | [View](problems/easy/2843-count-symmetric-integers.md) ✅ |
+
+### Easy — Matrix (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1572 | Matrix Diagonal Sum | Matrix / Diagonal Indexing | 2026-06-04 | [View](problems/easy/1572-matrix-diagonal-sum.md) ✅ |
+
+### Easy — Prefix Sum (2)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1480 | Running Sum of 1d Array | Prefix Sum | 2026-06-04 | [View](problems/easy/1480-running-sum-of-1d-array.md) ✅ |
+| 2574 | Left and Right Sum Differences | Prefix Sum / Two Pass | 2026-06-04 | [View](problems/easy/2574-left-and-right-sum-differences.md) ✅ |
+
+---
+
 ## 🧩 Pattern Summary
 
 | Pattern | Easy | Medium | Hard | Total |
 |---------|------|--------|------|-------|
 | Hash Map | 2 | 0 | 0 | 2 |
-| Hash Set | 1 | 1 | 0 | 2 |
-| Two Pointers | 3 | 1 | 0 | 4 |
+| Hash Set | 2 | 1 | 0 | 3 |
+| Two Pointers | 4 | 1 | 0 | 5 |
 | Binary Search | 1 | 0 | 0 | 1 |
 | Backtracking | 0 | 2 | 0 | 2 |
 | Sorting | 4 | 1 | 0 | 5 |
 | Sorting/Hash Map | 1 | 0 | 0 | 1 |
-| DP | 0 | 1 | 0 | 1 |
+| Counting Sort | 1 | 0 | 0 | 1 |
+| DP / Fibonacci | 1 | 0 | 0 | 1 |
+| DP / Bit Manipulation | 1 | 0 | 0 | 1 |
+| DP (other) | 0 | 1 | 0 | 1 |
+| Bit Manipulation / Subset | 1 | 0 | 0 | 1 |
+| Greedy / Sorting | 1 | 0 | 0 | 1 |
 | Greedy/TP | 0 | 1 | 0 | 1 |
 | Greedy/Balance | 1 | 0 | 0 | 1 |
 | Greedy/Sort | 1 | 0 | 0 | 1 |
@@ -205,6 +253,9 @@
 | Greedy/Bucket | 0 | 1 | 0 | 1 |
 | Greedy/Max Digit | 0 | 1 | 0 | 1 |
 | Greedy/Pair | 0 | 1 | 0 | 1 |
+| Enumeration / Digit | 1 | 0 | 0 | 1 |
+| Prefix Sum | 2 | 0 | 0 | 2 |
+| Matrix / Diagonal | 1 | 0 | 0 | 1 |
 | String | 1 | 0 | 0 | 1 |
 | Array/Math | 1 | 0 | 0 | 1 |
 | Brute Force | 1 | 0 | 0 | 1 |
@@ -217,7 +268,7 @@
 | Matrix/Row Sum | 1 | 0 | 0 | 1 |
 | Matrix/Sliding Win | 1 | 0 | 0 | 1 |
 | Matrix/Spiral | 0 | 1 | 0 | 1 |
-| **Total** | **26** | **14** | **1** | **41** |
+| **Total** | **36** | **14** | **1** | **51** |
 
 ---
 
@@ -247,6 +298,7 @@
 - 2D sliding window (3×3)
 - Spiral traversal with direction vectors
 - Step size patterns (1,1,2,2,3,3...)
+- **(Day 8)** Diagonal indexing: `(i, i)` for primary, `(i, n-1-i)` for secondary; odd-n requires center-cell correction
 
 ### Day 5: Greedy Algorithm
 - Max digit = bottleneck (deci-binary)
@@ -255,6 +307,23 @@
 - Sorting for optimal assignment
 - Digit placement strategy
 - Bucketing + greedy filling
+
+### Day 6: Hash-Based Counting
+- Streaming hash map for pair counting: `ans += counts[x]; counts[x] += 1`
+- Set membership for filter-preserving-order
+- Distinct-count collapse: max splits with distinct property = number of distinct elements
+
+### Day 8: Multi-Pattern Recovery Session
+- **DP / Fibonacci:** two-variable rolling (`prev2, prev1 = prev1, prev1 + prev2`)
+- **Bit Manipulation DP:** `ans[i] = ans[i>>1] + (i & 1)` for popcount in O(n)
+- **Subset XOR identity:** answer = `OR(nums) << (n-1)` — half of all subsets have any given bit set
+- **Greedy pairing:** sort, take every even index for max sum-of-mins
+- **Counting sort:** when value range is bounded (1..100), beats comparison sort at O(n + R)
+- **Digit-symmetric trick:** 2-digit symmetric numbers are exactly multiples of 11 in [11, 99]
+- **Matrix diagonals:** odd-n center cell is on both diagonals → subtract once
+- **Prefix sum:** the "store-before-update" pattern; `rightSum = total - leftSum - nums[i]` identity
+- **In-place running sum:** read previous (already-cumulative) cell to update current; no extra array needed
+- **`itertools.accumulate`:** Python's superpower for any associative reduction
 
 ---
 
@@ -272,6 +341,6 @@ Each problem file includes:
 
 ---
 
-**Last Updated:** May 19, 2026 | 41 Problems Solved ✅
+**Last Updated:** June 4, 2026 | 51 Problems Solved ✅
 
-**Next:** W2 - Sliding Window & Stack Problems
+**Next:** W3 — Sliding Window & Stack (Medium-difficulty pattern drill)
