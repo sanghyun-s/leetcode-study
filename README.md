@@ -20,22 +20,23 @@
 | Day 6 | 05/19 | 2 | 1 | 0 | Hash Map / Hash Set | ✅ Complete |
 | *(Gap: final exams + app projects)* | 05/20–06/03 | — | — | — | Returned 6/4 — honest log | 📝 Noted |
 | Day 8 | 06/04 | 18 | 2 | 0 | Mixed (DP, Bit, Prefix Sum, Matrix, SQL, Simulation) | ✅ Complete |
+| Day 9 | 06/05 | 7 | 3 | 0 | Strings + Tree DFS | ✅ Complete |
 
 ---
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 44
-- 🟡 Medium: 16
+- 🟢 Easy: 51
+- 🟡 Medium: 19
 - 🔴 Hard: 1
-- **Total: 61**
+- **Total: 71**
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** Day 8 🔥 (resumed after exam-week gap with a 20-problem catch-up session — 2x the original goal)
-- **Patterns learned:** Arrays, Hash Map, Hash Set, Two Pointers, Binary Search, Backtracking, Sorting, DP/Fibonacci, DP/Bit, DFS Trees, Window Functions, JOIN, GROUP BY+DISTINCT, CROSS JOIN, Anti-Join, String Manipulation, Spiral Traversal, Greedy, Bit Manipulation, XOR+Popcount, Counting Sort, Matrix Diagonal, Prefix Sum, Enumeration, Subset Bitmask, Permutation Frequency Trick, In-Place Bit Packing, Simulation
+- **Study streak:** Day 9 🔥 (consecutive comeback days after exam-week gap; 30 problems across Days 8-9)
+- **Patterns learned:** Arrays, Hash Map, Hash Set, Two Pointers, Binary Search, Backtracking, Sorting, DP/Fibonacci, DP/Bit, DFS Trees (5 sub-patterns), Window Functions, JOIN, GROUP BY+DISTINCT, CROSS JOIN, Anti-Join, String Manipulation (5 sub-patterns), Spiral Traversal, Greedy, Bit Manipulation, XOR+Popcount, Counting Sort, Matrix Diagonal, Prefix Sum, Enumeration, Subset Bitmask, Permutation Frequency Trick, In-Place Bit Packing, Simulation, Manhattan Distance, Tree DFS (4 flavors)
 - **Languages:** Python3, SQL/MySQL
 - **Next up:** Sliding Window & Stack — Medium-difficulty pattern drill
 
@@ -190,7 +191,7 @@
 
 ## **Day 8 | June 4, 2026 | 20 Problems (18 Easy + 2 Medium) — Resumed after exam-week gap**
 
-> **Catch-up session.** Took a 2-week break for finals + capstone polish + LinkedIn launch. Resumed with a deliberate "variety + volume" run across multiple patterns to rebuild momentum. Hit 2x the original 10-problem goal across DP, Bit Manipulation, Prefix Sum, Matrix, Enumeration, Simulation, and SQL — and added 2 Mediums (SQL anti-join + permutation frequency trick).
+> **Catch-up session.** Took a 2-week break for finals + capstone polish + LinkedIn launch. Resumed with a deliberate "variety + volume" run across multiple patterns to rebuild momentum. Hit 2x the original 10-problem goal across DP, Bit Manipulation, Prefix Sum, Matrix, Enumeration, Simulation, and SQL — and added 2 Mediums.
 
 ### Easy — DP / Bit Manipulation (2)
 
@@ -264,6 +265,47 @@
 
 ---
 
+## **Day 9 | June 5, 2026 | 10 Problems (7 Easy + 3 Medium) — Strings + Tree DFS**
+
+> **Day 2 of comeback.** Focused on two pattern families: **strings** (5 problems building from adjacent-pair aggregation to two-pass prefix sums) and **tree DFS** (5 problems covering all four DFS flavors: read, compare, aggregate, mutate, then composing them for the Medium). Hit the 10-problem mark with strong pattern recognition — the string problems built on yesterday's adjacent-pair templates, and the trees ended with a Medium that explicitly composes two earlier patterns.
+
+### Easy — String / Adjacent Pair (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 3110 | Score of a String | String / Adjacent Pair Aggregation | 2026-06-05 | [View](problems/easy/3110-score-of-a-string.md) ✅ |
+
+### Easy — String / Filter (2)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1119 | Remove Vowels from a String | String / Filter / Set Membership | 2026-06-05 | [View](problems/easy/1119-remove-vowels-from-a-string.md) ✅ |
+| 2942 | Find Words Containing Character | String / Indexed Filter | 2026-06-05 | [View](problems/easy/2942-find-words-containing-character.md) ✅ |
+
+### Easy — Tree DFS (4)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 94 | Binary Tree Inorder Traversal | Tree / DFS / Iterative Stack | 2026-06-05 | [View](problems/easy/0094-binary-tree-inorder-traversal.md) ✅ |
+| 100 | Same Tree | Tree / Parallel DFS | 2026-06-05 | [View](problems/easy/0100-same-tree.md) ✅ |
+| 104 | Maximum Depth of Binary Tree | Tree / DFS Aggregation | 2026-06-05 | [View](problems/easy/0104-maximum-depth-of-binary-tree.md) ✅ |
+| 226 | Invert Binary Tree | Tree / DFS Mutation | 2026-06-05 | [View](problems/easy/0226-invert-binary-tree.md) ✅ |
+
+### Medium — String (2)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1769 | Minimum Operations to Move All Balls to Each Box | String / Two-Pass Prefix Sum | 2026-06-05 | [View](problems/medium/1769-minimum-number-of-operations-to-move-all-balls-to-each-box.md) ✅ |
+| 3846 | Total Distance to Type a String Using One Finger | String / Hash Map / Manhattan | 2026-06-05 | [View](problems/medium/3846-total-distance-to-type-a-string-using-one-finger.md) ✅ |
+
+### Medium — Tree DFS (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1382 | Balance a Binary Search Tree | Tree / Inorder + Divide & Conquer Rebuild | 2026-06-05 | [View](problems/medium/1382-balance-a-binary-search-tree.md) ✅ |
+
+---
+
 ## 🧩 Pattern Summary
 
 | Pattern | Easy | Medium | Hard | Total |
@@ -294,13 +336,23 @@
 | Greedy/Pair | 0 | 1 | 0 | 1 |
 | Enumeration / Digit | 1 | 0 | 0 | 1 |
 | Prefix Sum | 2 | 0 | 0 | 2 |
+| Prefix Sum / Two-Pass Sweep | 0 | 1 | 0 | 1 |
 | Matrix / Diagonal | 1 | 0 | 0 | 1 |
 | Simulation / Bit Packing | 1 | 0 | 0 | 1 |
 | Simulation / String | 1 | 0 | 0 | 1 |
-| String | 1 | 0 | 0 | 1 |
+| String / Adjacent Pair | 1 | 0 | 0 | 1 |
+| String / Filter | 1 | 0 | 0 | 1 |
+| String / Indexed Filter | 1 | 0 | 0 | 1 |
+| String / Hash Map / Manhattan | 0 | 1 | 0 | 1 |
+| String (basic) | 1 | 0 | 0 | 1 |
 | Array/Math | 1 | 0 | 0 | 1 |
 | Brute Force | 1 | 0 | 0 | 1 |
-| Trees/DFS | 2 | 2 | 0 | 4 |
+| Trees/DFS (Day 3) | 2 | 2 | 0 | 4 |
+| Tree DFS / Inorder | 1 | 0 | 0 | 1 |
+| Tree DFS / Parallel | 1 | 0 | 0 | 1 |
+| Tree DFS / Aggregation | 1 | 0 | 0 | 1 |
+| Tree DFS / Mutation | 1 | 0 | 0 | 1 |
+| Tree DFS / Inorder + Rebuild | 0 | 1 | 0 | 1 |
 | SQL/Bitwise | 0 | 1 | 0 | 1 |
 | SQL/JOIN | 1 | 0 | 0 | 1 |
 | SQL/Window Fn | 1 | 0 | 0 | 1 |
@@ -313,7 +365,7 @@
 | Matrix/Row Sum | 1 | 0 | 0 | 1 |
 | Matrix/Sliding Win | 1 | 0 | 0 | 1 |
 | Matrix/Spiral | 0 | 1 | 0 | 1 |
-| **Total** | **44** | **16** | **1** | **61** |
+| **Total** | **51** | **19** | **1** | **71** |
 
 ---
 
@@ -405,13 +457,49 @@
 - **GROUP BY + COUNT DISTINCT (LC 2356):** dedupe BEFORE counting; foundational analytics idiom
 - **Anti-join (LC 2084):** three idioms — `NOT EXISTS`, `NOT IN`, `LEFT JOIN ... IS NULL`. Window function `MIN(x) OVER (PARTITION BY group)` is the elegant alternative for "keep best per group"
 
+### Day 9: Strings + Tree DFS Toolkit (10 problems)
+
+**String / Pairwise Aggregation**
+- **Adjacent-pair template (LC 3110):** `sum(op(a, b) for a, b in zip(seq, seq[1:]))` — same skeleton as yesterday's LC 3173, now with `abs(ord(a) - ord(b))` as the op. The template handles sum/max/list of any pairwise computation.
+- **Score as "total variation"** — sum of absolute differences across consecutive elements; the same metric used in signal processing and time-series analysis.
+
+**String / Filtering**
+- **Filter pattern (LC 1119):** `''.join(c for c in s if predicate(c))`. Three implementations: generator + join, hash set lookup, or `str.translate()` for C-level speed on long inputs.
+- **Critical Python habit:** NEVER use `+=` in a loop to build a string — it's O(n²) due to string immutability. Always use `list.append + ''.join` or a generator.
+
+**String / Indexed Iteration**
+- **`enumerate` (LC 2942):** when you need BOTH index and value, `enumerate(items)` beats manual `range(len(items))`. The indexed-filter pattern: `[i for i, x in enumerate(items) if predicate(x)]` — distinct from a plain filter that returns values.
+
+**String / 2D Coordinates**
+- **Manhattan distance + position lookup (LC 3846):** build a `char → (row, col)` dict ONCE, then it's O(1) per query. For sequences with implicit starting state, either prepend the start OR maintain explicit running state.
+- **Connection to LC 3110:** Manhattan distance is the 2D version of `abs(ord(a) - ord(b))`. Same adjacent-pair skeleton, two dimensions instead of one.
+
+**String / Prefix Sum / Two-Pass Sweep**
+- **Two-pass directional sweep (LC 1769):** decompose "sum over all pairs" into separate left-side and right-side contributions. The running update trick: `cost += balls` per step (every existing ball gets +1 distance as cursor moves).
+- **Same skeleton as yesterday's LC 2574** — only the aggregation function changed (absolute differences instead of subtraction).
+
+**Tree DFS — The Four Flavors**
+- **DFS to produce a list (LC 94 Inorder):** traverse Left → Node → Right; for BSTs this gives sorted output. Iterative version uses explicit stack — required for tree iterator implementations (LC 173 BST Iterator).
+- **DFS to compare two trees (LC 100 Same Tree):** parallel recursion with three base cases: both None (match), one None (mismatch), both exist (compare + recurse). Skeleton extends to LC 101 Symmetric, LC 572 Subtree.
+- **DFS to aggregate a value (LC 104 Max Depth):** divide-and-conquer skeleton `1 + max(L, R)`. Change the combine function and you solve dozens of tree problems: count nodes (`1 + L + R`), sum values (`val + L + R`), path sum, balance check.
+- **DFS to mutate the tree (LC 226 Invert):** swap children at every node. When each node's work is independent of others, traversal order is free — any DFS or BFS works. Python's tuple-swap `node.left, node.right = node.right, node.left` is the safe simultaneous-assignment idiom.
+
+**Tree DFS — Composition (Medium)**
+- **Two-phase pattern (LC 1382 Balance BST):** Phase 1 inorder → sorted array (uses BST property). Phase 2 recursive build picking middle as root (same divide-and-conquer as binary search). This problem = LC 94 + LC 108 composed. Recognizing pattern composition is the Medium-tier insight.
+- **Overflow-safe middle formula:** `start + (end - start) // 2` instead of `(start + end) // 2`. Doesn't matter in Python (unbounded ints) but mandatory in C++/Java.
+
+**Debugging Lessons (from real session bugs)**
+- **Method name consistency:** if you misspell the definition (`creat_balanced_bst`) but call it correctly (`create_balanced_bst`), Python's "Did you mean?" error suggests the misspelled one. Always check both directions.
+- **Copy-paste typo on `root.left` vs `root.right`:** common when typing inorder traversal — the third recursion is `root.right`, NOT a copy of the first line. Watch for this.
+- **Sign flip in math formulas:** `(end - start)` vs `(end + start)` — accidentally works for `start=0` but breaks for non-zero starts, producing out-of-range indices.
+
 ---
 
 ## 📚 Notes
 
 Each problem file includes:
 - ✅ Understanding the Goal
-- ✅ LAYER 1: Line-by-line code explanation
+- ✅ LAYER 1: Line-by-line code explanation (with heavy inline comments)
 - ✅ LAYER 2: Worked examples with traces
 - ✅ LAYER 3: Key insights & complexity
 - ✅ LAYER 4: Interview variations
@@ -421,6 +509,6 @@ Each problem file includes:
 
 ---
 
-**Last Updated:** June 4, 2026 | 61 Problems Solved ✅
+**Last Updated:** June 5, 2026 | 71 Problems Solved ✅
 
-**Next:** W3 — Sliding Window & Stack (Medium-difficulty pattern drill)
+**Next:** W3 — Sliding Window & Stack (Medium-difficulty pattern drill); plan to add review days for already-solved problems
