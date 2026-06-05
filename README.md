@@ -19,23 +19,23 @@
 | Day 5 | 05/18 | 3 | 3 | 0 | Greedy Algorithm | ✅ Complete |
 | Day 6 | 05/19 | 2 | 1 | 0 | Hash Map / Hash Set | ✅ Complete |
 | *(Gap: final exams + app projects)* | 05/20–06/03 | — | — | — | Returned 6/4 — honest log | 📝 Noted |
-| Day 8 | 06/04 | 10 | 0 | 0 | Mixed Patterns (DP, Bit, Prefix Sum, Matrix) | ✅ Complete |
+| Day 8 | 06/04 | 18 | 2 | 0 | Mixed (DP, Bit, Prefix Sum, Matrix, SQL, Simulation) | ✅ Complete |
 
 ---
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 36
-- 🟡 Medium: 14
+- 🟢 Easy: 44
+- 🟡 Medium: 16
 - 🔴 Hard: 1
-- **Total: 51**
+- **Total: 61**
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** Day 8 🔥 (resumed after exam-week gap)
-- **Patterns learned:** Arrays, Hash Map, Hash Set, Two Pointers, Binary Search, Backtracking, Sorting, DP/Fibonacci, DFS Trees, Window Functions, JOIN, String Manipulation, Spiral Traversal, Greedy, Bit Manipulation, Counting Sort, Matrix Diagonal, Prefix Sum, Enumeration, Subset Bitmask
+- **Study streak:** Day 8 🔥 (resumed after exam-week gap with a 20-problem catch-up session — 2x the original goal)
+- **Patterns learned:** Arrays, Hash Map, Hash Set, Two Pointers, Binary Search, Backtracking, Sorting, DP/Fibonacci, DP/Bit, DFS Trees, Window Functions, JOIN, GROUP BY+DISTINCT, CROSS JOIN, Anti-Join, String Manipulation, Spiral Traversal, Greedy, Bit Manipulation, XOR+Popcount, Counting Sort, Matrix Diagonal, Prefix Sum, Enumeration, Subset Bitmask, Permutation Frequency Trick, In-Place Bit Packing, Simulation
 - **Languages:** Python3, SQL/MySQL
 - **Next up:** Sliding Window & Stack — Medium-difficulty pattern drill
 
@@ -188,9 +188,9 @@
 
 ---
 
-## **Day 8 | June 4, 2026 | 10 Problems (10 Easy) — Resumed after exam-week gap**
+## **Day 8 | June 4, 2026 | 20 Problems (18 Easy + 2 Medium) — Resumed after exam-week gap**
 
-> **Catch-up session.** Took a 2-week break for finals + capstone polish + LinkedIn launch. Resumed with a deliberate "variety + volume" run across 7 different patterns to rebuild momentum.
+> **Catch-up session.** Took a 2-week break for finals + capstone polish + LinkedIn launch. Resumed with a deliberate "variety + volume" run across multiple patterns to rebuild momentum. Hit 2x the original 10-problem goal across DP, Bit Manipulation, Prefix Sum, Matrix, Enumeration, Simulation, and SQL — and added 2 Mediums (SQL anti-join + permutation frequency trick).
 
 ### Easy — DP / Bit Manipulation (2)
 
@@ -227,6 +227,41 @@
 | 1480 | Running Sum of 1d Array | Prefix Sum | 2026-06-04 | [View](problems/easy/1480-running-sum-of-1d-array.md) ✅ |
 | 2574 | Left and Right Sum Differences | Prefix Sum / Two Pass | 2026-06-04 | [View](problems/easy/2574-left-and-right-sum-differences.md) ✅ |
 
+### Easy — SQL (3)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1821 | Find Customers With Positive Revenue This Year | SQL / WHERE Filter | 2026-06-04 | [View](problems/easy/1821-find-customers-with-positive-revenue-this-year.md) ✅ |
+| 2339 | All the Matches of the League | SQL / CROSS JOIN | 2026-06-04 | [View](problems/easy/2339-all-the-matches-of-the-league.md) ✅ |
+| 2356 | Number of Unique Subjects Taught by Each Teacher | SQL / GROUP BY + COUNT DISTINCT | 2026-06-04 | [View](problems/easy/2356-number-of-unique-subjects-taught-by-each-teacher.md) ✅ |
+
+### Easy — Bit Manipulation (3)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1684 | Count the Number of Consistent Strings | Bit Manipulation / Set Membership | 2026-06-04 | [View](problems/easy/1684-count-the-number-of-consistent-strings.md) ✅ |
+| 2220 | Minimum Bit Flips to Convert Number | Bit Manipulation / XOR + Popcount | 2026-06-04 | [View](problems/easy/2220-minimum-bit-flips-to-convert-number.md) ✅ |
+| 3173 | Bitwise OR of Adjacent Elements | Bit Manipulation / Array Traversal | 2026-06-04 | [View](problems/easy/3173-bitwise-or-of-adjacent-elements.md) ✅ |
+
+### Easy — Simulation (2)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1920 | Build Array from Permutation | Simulation / In-Place Bit Packing | 2026-06-04 | [View](problems/easy/1920-build-array-from-permutation.md) ✅ |
+| 2011 | Final Value of Variable After Performing Operations | Simulation / String Inspection | 2026-06-04 | [View](problems/easy/2011-final-value-of-variable-after-performing-operations.md) ✅ |
+
+### Medium — SQL (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 2084 | Drop Type 1 Orders for Customers With Type 0 Orders | SQL / Anti-Join + Window Function | 2026-06-04 | [View](problems/medium/2084-drop-type-1-orders-for-customers-with-type-0-orders.md) ✅ |
+
+### Medium — Hash / Bit Manipulation (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 2657 | Find the Prefix Common Array of Two Arrays | Hash / Permutation Frequency Trick | 2026-06-04 | [View](problems/medium/2657-find-the-prefix-common-array-of-two-arrays.md) ✅ |
+
 ---
 
 ## 🧩 Pattern Summary
@@ -235,6 +270,7 @@
 |---------|------|--------|------|-------|
 | Hash Map | 2 | 0 | 0 | 2 |
 | Hash Set | 2 | 1 | 0 | 3 |
+| Hash / Permutation Trick | 0 | 1 | 0 | 1 |
 | Two Pointers | 4 | 1 | 0 | 5 |
 | Binary Search | 1 | 0 | 0 | 1 |
 | Backtracking | 0 | 2 | 0 | 2 |
@@ -245,6 +281,9 @@
 | DP / Bit Manipulation | 1 | 0 | 0 | 1 |
 | DP (other) | 0 | 1 | 0 | 1 |
 | Bit Manipulation / Subset | 1 | 0 | 0 | 1 |
+| Bit Manipulation / Set | 1 | 0 | 0 | 1 |
+| Bit Manipulation / XOR | 1 | 0 | 0 | 1 |
+| Bit Manipulation / Adjacent | 1 | 0 | 0 | 1 |
 | Greedy / Sorting | 1 | 0 | 0 | 1 |
 | Greedy/TP | 0 | 1 | 0 | 1 |
 | Greedy/Balance | 1 | 0 | 0 | 1 |
@@ -256,6 +295,8 @@
 | Enumeration / Digit | 1 | 0 | 0 | 1 |
 | Prefix Sum | 2 | 0 | 0 | 2 |
 | Matrix / Diagonal | 1 | 0 | 0 | 1 |
+| Simulation / Bit Packing | 1 | 0 | 0 | 1 |
+| Simulation / String | 1 | 0 | 0 | 1 |
 | String | 1 | 0 | 0 | 1 |
 | Array/Math | 1 | 0 | 0 | 1 |
 | Brute Force | 1 | 0 | 0 | 1 |
@@ -265,10 +306,14 @@
 | SQL/Window Fn | 1 | 0 | 0 | 1 |
 | SQL/Calculation | 0 | 1 | 0 | 1 |
 | SQL/Recursive CTE | 0 | 0 | 1 | 1 |
+| SQL/WHERE Filter | 1 | 0 | 0 | 1 |
+| SQL/CROSS JOIN | 1 | 0 | 0 | 1 |
+| SQL/GROUP BY + DISTINCT | 1 | 0 | 0 | 1 |
+| SQL/Anti-Join | 0 | 1 | 0 | 1 |
 | Matrix/Row Sum | 1 | 0 | 0 | 1 |
 | Matrix/Sliding Win | 1 | 0 | 0 | 1 |
 | Matrix/Spiral | 0 | 1 | 0 | 1 |
-| **Total** | **36** | **14** | **1** | **51** |
+| **Total** | **44** | **16** | **1** | **61** |
 
 ---
 
@@ -313,17 +358,52 @@
 - Set membership for filter-preserving-order
 - Distinct-count collapse: max splits with distinct property = number of distinct elements
 
-### Day 8: Multi-Pattern Recovery Session
+### Day 8: Multi-Pattern Recovery Session (20 problems)
+
+**DP & Recurrences**
 - **DP / Fibonacci:** two-variable rolling (`prev2, prev1 = prev1, prev1 + prev2`)
 - **Bit Manipulation DP:** `ans[i] = ans[i>>1] + (i & 1)` for popcount in O(n)
-- **Subset XOR identity:** answer = `OR(nums) << (n-1)` — half of all subsets have any given bit set
-- **Greedy pairing:** sort, take every even index for max sum-of-mins
+- **Memoization vs bottom-up:** `@lru_cache` is plan B; bottom-up shows you understand dependency order
+
+**Bit Manipulation Toolkit**
+- **XOR + popcount template:** `popcount(a ^ b)` counts differing bits — Hamming distance, min bit flips
+- **OR-shift identity for subset XOR sum:** answer = `OR(nums) << (n-1)` — half of all subsets have any given bit set
+- **Bitmask as set:** 26-bit integer = set of lowercase letters; `(word_mask & ~allowed_mask) == 0` for subset check
+- **Adjacent-pair operations:** `[a | b for a, b in zip(nums, nums[1:])]` — generalizes to any pairwise op
+- **Brian Kernighan trick:** `x &= x - 1` clears the lowest set bit; iteration count = popcount
+
+**Sorting & Greedy**
+- **Greedy pairing (LC 561):** sort, take every even index for max sum-of-mins; exchange argument proves optimality
 - **Counting sort:** when value range is bounded (1..100), beats comparison sort at O(n + R)
+- **Set intersection vs two-pointer:** sets win on clarity, two-pointer wins on already-sorted input
+
+**Permutation & Frequency**
+- **Permutation frequency trick (LC 2657):** when both arrays are permutations, `freq[v]` ≤ 2 → "v becomes common" = "freq hits 2"
+- **Increment-then-check pattern:** `counter[key] += 1; if counter[key] == THRESHOLD: action()`
+
+**Enumeration & Digit**
 - **Digit-symmetric trick:** 2-digit symmetric numbers are exactly multiples of 11 in [11, 99]
-- **Matrix diagonals:** odd-n center cell is on both diagonals → subtract once
-- **Prefix sum:** the "store-before-update" pattern; `rightSum = total - leftSum - nums[i]` identity
+- **String vs arithmetic digit extraction:** `str(x)[:half]` generalizes; `x // 1000 + x % 1000 // 100` is faster but case-specific
+
+**Matrix**
+- **Diagonals:** odd-n center cell is on both diagonals → subtract once. `(i,i)` and `(i, n-1-i)` are canonical indices
+
+**Prefix Sum**
+- **Store-before-update pattern:** record running sum BEFORE adding current element to exclude it from "left of i"
+- **Total trick:** `rightSum = total - leftSum - nums[i]` collapses two passes into one
 - **In-place running sum:** read previous (already-cumulative) cell to update current; no extra array needed
-- **`itertools.accumulate`:** Python's superpower for any associative reduction
+- **`itertools.accumulate`:** Python's superpower for any associative reduction (sum, product, min, max, xor)
+
+**Simulation & In-Place Tricks**
+- **Bit-packing for O(1) space (LC 1920):** `cell = old + n*new`; decode with `% n` and `// n`. Lets you store two values in one cell using base-n encoding
+- **"Stateless map → sum" pattern:** when each element transforms independently, `sum(f(x) for x in items)` replaces explicit loops
+- **The "just a return" recognition:** if there's no running state between iterations, list comprehension is the answer
+
+**SQL Patterns (4 new)**
+- **WHERE filter (LC 1821):** simplest SQL primitive; watch for "positive" = `> 0` vs "non-negative" = `>= 0`
+- **CROSS JOIN (LC 2339):** `CROSS JOIN ... WHERE t1.x != t2.x` for all ordered pairs; `<` for unordered
+- **GROUP BY + COUNT DISTINCT (LC 2356):** dedupe BEFORE counting; foundational analytics idiom
+- **Anti-join (LC 2084):** three idioms — `NOT EXISTS`, `NOT IN`, `LEFT JOIN ... IS NULL`. Window function `MIN(x) OVER (PARTITION BY group)` is the elegant alternative for "keep best per group"
 
 ---
 
@@ -341,6 +421,6 @@ Each problem file includes:
 
 ---
 
-**Last Updated:** June 4, 2026 | 51 Problems Solved ✅
+**Last Updated:** June 4, 2026 | 61 Problems Solved ✅
 
 **Next:** W3 — Sliding Window & Stack (Medium-difficulty pattern drill)
