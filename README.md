@@ -21,22 +21,23 @@
 | *(Gap: final exams + app projects)* | 05/20–06/03 | — | — | — | Returned 6/4 — honest log | 📝 Noted |
 | Day 8 | 06/04 | 18 | 2 | 0 | Mixed (DP, Bit, Prefix Sum, Matrix, SQL, Simulation) | ✅ Complete |
 | Day 9 | 06/05 | 7 | 3 | 0 | Strings + Tree DFS | ✅ Complete |
+| Day 10 (light) | 06/07 | 4 | 1 | 0 | Hash Table Family | ✅ Complete |
 
 ---
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 51
-- 🟡 Medium: 19
+- 🟢 Easy: 55
+- 🟡 Medium: 20
 - 🔴 Hard: 1
-- **Total: 71**
+- **Total: 76**
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** Day 9 🔥 (consecutive comeback days after exam-week gap; 30 problems across Days 8-9)
-- **Patterns learned:** Arrays, Hash Map, Hash Set, Two Pointers, Binary Search, Backtracking, Sorting, DP/Fibonacci, DP/Bit, DFS Trees (5 sub-patterns), Window Functions, JOIN, GROUP BY+DISTINCT, CROSS JOIN, Anti-Join, String Manipulation (5 sub-patterns), Spiral Traversal, Greedy, Bit Manipulation, XOR+Popcount, Counting Sort, Matrix Diagonal, Prefix Sum, Enumeration, Subset Bitmask, Permutation Frequency Trick, In-Place Bit Packing, Simulation, Manhattan Distance, Tree DFS (4 flavors)
+- **Study streak:** Day 10 🔥 (low-energy day handled with sustainable pacing; 35 problems across Days 8-10)
+- **Patterns learned:** Arrays, Hash Map, Hash Set, Hash Table (5+ sub-patterns), Two Pointers, Binary Search, Backtracking, Sorting, DP/Fibonacci, DP/Bit, DFS Trees (5 sub-patterns), Window Functions, JOIN, GROUP BY+DISTINCT, CROSS JOIN, Anti-Join, String Manipulation (5 sub-patterns), Spiral Traversal, Greedy, Bit Manipulation, XOR+Popcount, Counting Sort, Matrix Diagonal, Prefix Sum, Enumeration, Subset Bitmask, Permutation Frequency Trick, In-Place Bit Packing, Simulation, Manhattan Distance, Sparse Representation, Class Design
 - **Languages:** Python3, SQL/MySQL
 - **Next up:** Sliding Window & Stack — Medium-difficulty pattern drill
 
@@ -191,7 +192,7 @@
 
 ## **Day 8 | June 4, 2026 | 20 Problems (18 Easy + 2 Medium) — Resumed after exam-week gap**
 
-> **Catch-up session.** Took a 2-week break for finals + capstone polish + LinkedIn launch. Resumed with a deliberate "variety + volume" run across multiple patterns to rebuild momentum. Hit 2x the original 10-problem goal across DP, Bit Manipulation, Prefix Sum, Matrix, Enumeration, Simulation, and SQL — and added 2 Mediums.
+> **Catch-up session.** Took a 2-week break for finals + capstone polish + LinkedIn launch. Resumed with a deliberate "variety + volume" run. Hit 2x the original 10-problem goal across DP, Bit Manipulation, Prefix Sum, Matrix, Enumeration, Simulation, and SQL — and added 2 Mediums.
 
 ### Easy — DP / Bit Manipulation (2)
 
@@ -267,7 +268,7 @@
 
 ## **Day 9 | June 5, 2026 | 10 Problems (7 Easy + 3 Medium) — Strings + Tree DFS**
 
-> **Day 2 of comeback.** Focused on two pattern families: **strings** (5 problems building from adjacent-pair aggregation to two-pass prefix sums) and **tree DFS** (5 problems covering all four DFS flavors: read, compare, aggregate, mutate, then composing them for the Medium). Hit the 10-problem mark with strong pattern recognition — the string problems built on yesterday's adjacent-pair templates, and the trees ended with a Medium that explicitly composes two earlier patterns.
+> **Day 2 of comeback.** Focused on strings (5 problems building from adjacent-pair to two-pass prefix sums) and tree DFS (5 problems covering all four DFS flavors: read, compare, aggregate, mutate, then composing them for the Medium).
 
 ### Easy — String / Adjacent Pair (1)
 
@@ -306,6 +307,27 @@
 
 ---
 
+## **Day 10 | June 7, 2026 | 5 Problems (4 Easy + 1 Medium) — Hash Table Family (Light Day)**
+
+> **Sustainable pacing.** Low-energy day; deliberately stayed in one pattern family. Five problems covering five distinct shades of hash-table usage: weighted counting, sparse storage, threshold-check, set membership, and partitioned max. The Medium introduced **class design** (`SparseVector`) — the first OOP problem in the log.
+
+### Easy — Hash Table Variants (4)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 771 | Jewels and Stones | Hash Table / Set Membership | 2026-06-07 | [View](problems/easy/0771-jewels-and-stones.md) ✅ |
+| 3289 | The Two Sneaky Numbers of Digitville | Hash Table / Increment-Then-Check | 2026-06-07 | [View](problems/easy/3289-the-two-sneaky-numbers-of-digitville.md) ✅ |
+| 3541 | Find Most Frequent Vowel and Consonant | Hash Table / Counter / Conditional Max | 2026-06-07 | [View](problems/easy/3541-find-most-frequent-vowel-and-consonant.md) ✅ |
+| 3945 | Digit Frequency Score | Hash Table / Counter / Digit | 2026-06-07 | [View](problems/easy/3945-digit-frequency-score.md) ✅ |
+
+### Medium — Class Design (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1570 | Dot Product of Two Sparse Vectors | Hash Table / Sparse / Class Design | 2026-06-07 | [View](problems/medium/1570-dot-product-of-two-sparse-vectors.md) ✅ |
+
+---
+
 ## 🧩 Pattern Summary
 
 | Pattern | Easy | Medium | Hard | Total |
@@ -313,6 +335,10 @@
 | Hash Map | 2 | 0 | 0 | 2 |
 | Hash Set | 2 | 1 | 0 | 3 |
 | Hash / Permutation Trick | 0 | 1 | 0 | 1 |
+| Hash Table / Counter | 2 | 0 | 0 | 2 |
+| Hash Table / Set Membership | 1 | 0 | 0 | 1 |
+| Hash Table / Increment-Check | 1 | 0 | 0 | 1 |
+| Hash Table / Sparse / Class | 0 | 1 | 0 | 1 |
 | Two Pointers | 4 | 1 | 0 | 5 |
 | Binary Search | 1 | 0 | 0 | 1 |
 | Backtracking | 0 | 2 | 0 | 2 |
@@ -365,7 +391,7 @@
 | Matrix/Row Sum | 1 | 0 | 0 | 1 |
 | Matrix/Sliding Win | 1 | 0 | 0 | 1 |
 | Matrix/Spiral | 0 | 1 | 0 | 1 |
-| **Total** | **51** | **19** | **1** | **71** |
+| **Total** | **55** | **20** | **1** | **76** |
 
 ---
 
@@ -418,80 +444,128 @@
 - **Memoization vs bottom-up:** `@lru_cache` is plan B; bottom-up shows you understand dependency order
 
 **Bit Manipulation Toolkit**
-- **XOR + popcount template:** `popcount(a ^ b)` counts differing bits — Hamming distance, min bit flips
-- **OR-shift identity for subset XOR sum:** answer = `OR(nums) << (n-1)` — half of all subsets have any given bit set
-- **Bitmask as set:** 26-bit integer = set of lowercase letters; `(word_mask & ~allowed_mask) == 0` for subset check
-- **Adjacent-pair operations:** `[a | b for a, b in zip(nums, nums[1:])]` — generalizes to any pairwise op
-- **Brian Kernighan trick:** `x &= x - 1` clears the lowest set bit; iteration count = popcount
+- **XOR + popcount template:** `popcount(a ^ b)` counts differing bits
+- **OR-shift identity for subset XOR sum:** answer = `OR(nums) << (n-1)`
+- **Bitmask as set:** 26-bit integer = set of lowercase letters
+- **Adjacent-pair operations:** `[a | b for a, b in zip(nums, nums[1:])]`
+- **Brian Kernighan trick:** `x &= x - 1` clears lowest set bit
 
 **Sorting & Greedy**
-- **Greedy pairing (LC 561):** sort, take every even index for max sum-of-mins; exchange argument proves optimality
-- **Counting sort:** when value range is bounded (1..100), beats comparison sort at O(n + R)
-- **Set intersection vs two-pointer:** sets win on clarity, two-pointer wins on already-sorted input
+- **Greedy pairing (LC 561):** sort, take every even index
+- **Counting sort:** O(n + R) for bounded value ranges
+- **Set intersection vs two-pointer:** sets win on clarity, TP on already-sorted input
 
 **Permutation & Frequency**
-- **Permutation frequency trick (LC 2657):** when both arrays are permutations, `freq[v]` ≤ 2 → "v becomes common" = "freq hits 2"
+- **Permutation frequency trick (LC 2657):** when both arrays are permutations, `freq[v]` ≤ 2
 - **Increment-then-check pattern:** `counter[key] += 1; if counter[key] == THRESHOLD: action()`
 
 **Enumeration & Digit**
 - **Digit-symmetric trick:** 2-digit symmetric numbers are exactly multiples of 11 in [11, 99]
-- **String vs arithmetic digit extraction:** `str(x)[:half]` generalizes; `x // 1000 + x % 1000 // 100` is faster but case-specific
+- **String vs arithmetic digit extraction:** trade-offs by language
 
 **Matrix**
-- **Diagonals:** odd-n center cell is on both diagonals → subtract once. `(i,i)` and `(i, n-1-i)` are canonical indices
+- **Diagonals:** odd-n center cell on both → subtract once
 
 **Prefix Sum**
-- **Store-before-update pattern:** record running sum BEFORE adding current element to exclude it from "left of i"
-- **Total trick:** `rightSum = total - leftSum - nums[i]` collapses two passes into one
-- **In-place running sum:** read previous (already-cumulative) cell to update current; no extra array needed
-- **`itertools.accumulate`:** Python's superpower for any associative reduction (sum, product, min, max, xor)
+- **Store-before-update pattern:** record running sum BEFORE adding current
+- **Total trick:** `rightSum = total - leftSum - nums[i]`
+- **In-place running sum:** read previous (already-cumulative) cell
+- **`itertools.accumulate`:** Python's superpower for any associative reduction
 
 **Simulation & In-Place Tricks**
-- **Bit-packing for O(1) space (LC 1920):** `cell = old + n*new`; decode with `% n` and `// n`. Lets you store two values in one cell using base-n encoding
-- **"Stateless map → sum" pattern:** when each element transforms independently, `sum(f(x) for x in items)` replaces explicit loops
-- **The "just a return" recognition:** if there's no running state between iterations, list comprehension is the answer
+- **Bit-packing for O(1) space (LC 1920):** `cell = old + n*new`; decode with `% n` and `// n`
+- **"Stateless map → sum" pattern:** when each element transforms independently
+- **The "just a return" recognition:** if there's no running state between iterations
 
 **SQL Patterns (4 new)**
-- **WHERE filter (LC 1821):** simplest SQL primitive; watch for "positive" = `> 0` vs "non-negative" = `>= 0`
-- **CROSS JOIN (LC 2339):** `CROSS JOIN ... WHERE t1.x != t2.x` for all ordered pairs; `<` for unordered
-- **GROUP BY + COUNT DISTINCT (LC 2356):** dedupe BEFORE counting; foundational analytics idiom
-- **Anti-join (LC 2084):** three idioms — `NOT EXISTS`, `NOT IN`, `LEFT JOIN ... IS NULL`. Window function `MIN(x) OVER (PARTITION BY group)` is the elegant alternative for "keep best per group"
+- **WHERE filter (LC 1821):** simplest SQL primitive
+- **CROSS JOIN (LC 2339):** ordered pairs with `!=`, unordered with `<`
+- **GROUP BY + COUNT DISTINCT (LC 2356):** dedupe BEFORE counting
+- **Anti-join (LC 2084):** three idioms — `NOT EXISTS`, `NOT IN`, `LEFT JOIN ... IS NULL`
 
 ### Day 9: Strings + Tree DFS Toolkit (10 problems)
 
 **String / Pairwise Aggregation**
-- **Adjacent-pair template (LC 3110):** `sum(op(a, b) for a, b in zip(seq, seq[1:]))` — same skeleton as yesterday's LC 3173, now with `abs(ord(a) - ord(b))` as the op. The template handles sum/max/list of any pairwise computation.
-- **Score as "total variation"** — sum of absolute differences across consecutive elements; the same metric used in signal processing and time-series analysis.
+- **Adjacent-pair template (LC 3110):** `sum(op(a, b) for a, b in zip(seq, seq[1:]))` — same skeleton as Day 8's LC 3173
+- **Score as "total variation"** — sum of absolute differences across consecutive elements
 
 **String / Filtering**
-- **Filter pattern (LC 1119):** `''.join(c for c in s if predicate(c))`. Three implementations: generator + join, hash set lookup, or `str.translate()` for C-level speed on long inputs.
-- **Critical Python habit:** NEVER use `+=` in a loop to build a string — it's O(n²) due to string immutability. Always use `list.append + ''.join` or a generator.
+- **Filter pattern (LC 1119):** `''.join(c for c in s if predicate(c))`
+- **Critical Python habit:** NEVER use `+=` in a loop to build a string — it's O(n²)
 
 **String / Indexed Iteration**
-- **`enumerate` (LC 2942):** when you need BOTH index and value, `enumerate(items)` beats manual `range(len(items))`. The indexed-filter pattern: `[i for i, x in enumerate(items) if predicate(x)]` — distinct from a plain filter that returns values.
+- **`enumerate` (LC 2942):** when you need BOTH index and value
+- **Indexed-filter pattern:** `[i for i, x in enumerate(items) if predicate(x)]`
 
 **String / 2D Coordinates**
-- **Manhattan distance + position lookup (LC 3846):** build a `char → (row, col)` dict ONCE, then it's O(1) per query. For sequences with implicit starting state, either prepend the start OR maintain explicit running state.
-- **Connection to LC 3110:** Manhattan distance is the 2D version of `abs(ord(a) - ord(b))`. Same adjacent-pair skeleton, two dimensions instead of one.
+- **Manhattan distance + position lookup (LC 3846):** build `char → (row, col)` dict ONCE
+- **Connection to LC 3110:** Manhattan distance is the 2D version of `abs(ord(a) - ord(b))`
 
 **String / Prefix Sum / Two-Pass Sweep**
-- **Two-pass directional sweep (LC 1769):** decompose "sum over all pairs" into separate left-side and right-side contributions. The running update trick: `cost += balls` per step (every existing ball gets +1 distance as cursor moves).
-- **Same skeleton as yesterday's LC 2574** — only the aggregation function changed (absolute differences instead of subtraction).
+- **Two-pass directional sweep (LC 1769):** decompose "sum over all pairs" into left + right contributions
+- **The running update trick:** `cost += balls` per step
+- **Same skeleton as Day 8's LC 2574**
 
 **Tree DFS — The Four Flavors**
-- **DFS to produce a list (LC 94 Inorder):** traverse Left → Node → Right; for BSTs this gives sorted output. Iterative version uses explicit stack — required for tree iterator implementations (LC 173 BST Iterator).
-- **DFS to compare two trees (LC 100 Same Tree):** parallel recursion with three base cases: both None (match), one None (mismatch), both exist (compare + recurse). Skeleton extends to LC 101 Symmetric, LC 572 Subtree.
-- **DFS to aggregate a value (LC 104 Max Depth):** divide-and-conquer skeleton `1 + max(L, R)`. Change the combine function and you solve dozens of tree problems: count nodes (`1 + L + R`), sum values (`val + L + R`), path sum, balance check.
-- **DFS to mutate the tree (LC 226 Invert):** swap children at every node. When each node's work is independent of others, traversal order is free — any DFS or BFS works. Python's tuple-swap `node.left, node.right = node.right, node.left` is the safe simultaneous-assignment idiom.
+- **DFS to produce a list (LC 94 Inorder):** Left → Node → Right; for BSTs gives sorted output
+- **DFS to compare two trees (LC 100 Same Tree):** parallel recursion with three base cases
+- **DFS to aggregate a value (LC 104 Max Depth):** divide-and-conquer skeleton `1 + max(L, R)`
+- **DFS to mutate the tree (LC 226 Invert):** Python's tuple-swap `node.left, node.right = node.right, node.left`
 
 **Tree DFS — Composition (Medium)**
-- **Two-phase pattern (LC 1382 Balance BST):** Phase 1 inorder → sorted array (uses BST property). Phase 2 recursive build picking middle as root (same divide-and-conquer as binary search). This problem = LC 94 + LC 108 composed. Recognizing pattern composition is the Medium-tier insight.
-- **Overflow-safe middle formula:** `start + (end - start) // 2` instead of `(start + end) // 2`. Doesn't matter in Python (unbounded ints) but mandatory in C++/Java.
+- **Two-phase pattern (LC 1382 Balance BST):** Phase 1 inorder → sorted array. Phase 2 recursive middle-as-root build
+- **Overflow-safe middle formula:** `start + (end - start) // 2`
 
-**Debugging Lessons (from real session bugs)**
-- **Method name consistency:** if you misspell the definition (`creat_balanced_bst`) but call it correctly (`create_balanced_bst`), Python's "Did you mean?" error suggests the misspelled one. Always check both directions.
-- **Copy-paste typo on `root.left` vs `root.right`:** common when typing inorder traversal — the third recursion is `root.right`, NOT a copy of the first line. Watch for this.
-- **Sign flip in math formulas:** `(end - start)` vs `(end + start)` — accidentally works for `start=0` but breaks for non-zero starts, producing out-of-range indices.
+**Debugging Lessons**
+- **Method name consistency:** Python's "Did you mean?" error suggests misspelled definition
+- **Copy-paste typo on `root.left` vs `root.right`** in inorder traversal
+- **Sign flip in math formulas** — accidentally works for some inputs
+
+### Day 10: Hash Table Family Deep Dive (5 problems, light day)
+
+**The hash table is a universal tool** — these 5 problems show 5 distinct shades:
+
+**Hash Table / Counter for Weighted Sum (LC 3945)**
+- **`Counter(str(n))`** for digit frequency; `sum(int(d) * count for d, count in items())` is the universal weighted-counter idiom
+- **Two extraction methods:** `str(n)` for Python clarity; mod/divide for language-agnostic code
+- **"Stateless map → sum" pattern strikes again** — same shape as LC 2011
+
+**Hash Table / Sparse Storage + Class Design (LC 1570)** ⭐ first OOP
+- **Sparse representation:** `{index: value}` for nonzero entries only — skip the zeros entirely
+- **Class design fundamentals:** a class is **data structure + operations**, encapsulated
+- **The follow-up insight:** "what if one is dense?" → switch from hash lookup to direct array indexing
+- **Real-world connection:** scipy.sparse, ML feature vectors, graph adjacency lists all use this idea
+- **Time complexity nuance:** iterate the smaller dict; for similar sizes, two-pointer on sorted tuples is cache-friendly
+
+**Hash Table / Increment-Then-Check (LC 3289)** — third encounter
+- The idiom `counter[key] += 1; if counter[key] == THRESHOLD: action()` is among the most reused in counting algorithms
+- **For "find duplicates" specifically:** a set of "seen" is simpler than a full counter — choose the lightest data structure that solves the problem
+- **Math alternative:** sum + sum-of-squares can solve in O(1) space (elegant but easy to mess up; mention but don't write in interviews)
+
+**Hash Table / Set Membership (LC 771)**
+- **The most reused micro-pattern in interviews:** `sum(s in lookup_set for s in items)`
+- Convert lookup data to a set ONCE when you'll query it many times — O(J) to build, O(1) per lookup
+- **Boolean-summing:** `True == 1`, `False == 0`; `sum(boolean_generator)` is a counting idiom
+- **Bitmask as set** is even tighter for small fixed alphabets (LC 1684 connection)
+
+**Hash Table / Counter + Partitioned Max (LC 3541)**
+- **`max(iterable, default=value)`** — the elegant way to handle "max if any exist, else sentinel"
+- The `default=` keyword (Python 3.4+) replaces verbose "check if list is empty" patterns
+- **The "boolean partition + max" pattern:** classify items into categories, find max within each — same structure for "max stock weekdays vs weekends," "max score by gender," etc.
+- **Generators vs list comps:** generators for one-shot use in `sum`, `max`, `min`, `any`, `all`
+
+**Cross-pattern recognition (the meta-skill):**
+
+Day 10 explicitly drilled "same pattern family, different surface forms." Recognizing this is the inflection point in interview prep — when you stop solving individual problems and start seeing template families.
+
+The hash-table family alone covers:
+- Counting (weighted, threshold, frequency-based)
+- Storage (sparse, dense, indexed)
+- Lookup (set membership, key existence)
+- Aggregation (sum, max within filtered subset)
+- Class design (encapsulating the above)
+
+When you see a new problem, the first question is now: **"which hash-table sub-pattern fits here?"**
 
 ---
 
@@ -509,6 +583,6 @@ Each problem file includes:
 
 ---
 
-**Last Updated:** June 5, 2026 | 71 Problems Solved ✅
+**Last Updated:** June 7, 2026 | 76 Problems Solved ✅
 
 **Next:** W3 — Sliding Window & Stack (Medium-difficulty pattern drill); plan to add review days for already-solved problems
