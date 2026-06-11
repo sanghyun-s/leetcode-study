@@ -23,24 +23,27 @@
 | Day 9 | 06/05 | 7 | 3 | 0 | Strings + Tree DFS | ✅ Complete |
 | Day 10 (light) | 06/07 | 4 | 1 | 0 | Hash Table Family | ✅ Complete |
 | Day 11 ⭐ | 06/09 | 6 | 2 | 1 | Sorting + DP (4 flavors) + Hash Table | ✅ Complete |
+| Day 12 ⭐ | 06/10 | 4 | 1 | 0 | Linked List + Simulation + Graph + Math | ✅ Complete |
 
 ---
 
 ## 🔢 Total Solved
 
-- 🟢 Easy: 61
-- 🟡 Medium: 22
+- 🟢 Easy: 65
+- 🟡 Medium: 23
 - 🔴 Hard: 2
-- **Total: 85**
+- **Total: 90**
+
+🎯 **90 problems** — approaching the 100-problem milestone within ~2 normal-pace days.
 
 ---
 
 ## 🔥 Current Stats
 
-- **Study streak:** Day 11 🔥🔥 (BIGGEST day on the log — 9 problems including a Hard, 4 DP flavors, all on a "low energy" start)
-- **Patterns learned:** Arrays, Hash Map, Hash Set, Hash Table (8+ sub-patterns including group-by, sparse, position lookup), Two Pointers, Binary Search, Backtracking, Sorting (5+ sub-patterns including custom key, counting sort, dimensional reduction), Dynamic Programming (4 sub-patterns: digit DP, tree construction DP / Catalan, bitmask subset DP, 2D grid DP), Tree DFS (5 sub-patterns), Window Functions, JOIN, GROUP BY+DISTINCT, CROSS JOIN, Anti-Join, String Manipulation (5+ sub-patterns), Spiral Traversal, Greedy, Bit Manipulation (multiple sub-patterns), XOR+Popcount, Counting Sort, Matrix Diagonal, Prefix Sum, Enumeration, Subset Bitmask, Permutation Frequency Trick, In-Place Bit Packing, Simulation, Manhattan Distance, Sparse Representation, Class Design, Catalan Numbers
+- **Study streak:** Day 12 🔥 — filled THREE major gaps in one day: Linked Lists (was 0), Graph problems (was 0), and reinforced "mathematical collapse" pattern recognition
+- **Patterns learned:** Arrays, Hash Map, Hash Set, Hash Table (8+ sub-patterns), Two Pointers, Binary Search, Backtracking, Sorting (5+ sub-patterns), Dynamic Programming (4 sub-patterns), Tree DFS (5 sub-patterns), **Linked List (traversal, immutable reverse, sqrt(n) decomposition)** ⭐ NEW Day 12, **Graph (adjacency matrix representation)** ⭐ NEW Day 12, Window Functions, JOIN, GROUP BY+DISTINCT, CROSS JOIN, Anti-Join, String Manipulation (5+ sub-patterns), Spiral Traversal, Greedy, Bit Manipulation (multiple sub-patterns), XOR+Popcount, Counting Sort, Matrix Diagonal, Prefix Sum, Enumeration, Subset Bitmask, Permutation Frequency Trick, In-Place Bit Packing, Simulation, Manhattan Distance, Sparse Representation, Class Design, Catalan Numbers, **Mathematical Collapse** ⭐ NEW Day 12
 - **Languages:** Python3, SQL/MySQL
-- **Next up:** Sliding Window & Stack — Medium-difficulty pattern drill; consider review days for already-solved problems
+- **Next up:** LC 206 Reverse Linked List (three-pointer template), LC 876 Middle of LL (slow/fast pointers), LC 21 Merge Two Sorted Lists (dummy node); review days strongly recommended
 
 ---
 
@@ -193,7 +196,7 @@
 
 ## **Day 8 | June 4, 2026 | 20 Problems (18 Easy + 2 Medium) — Resumed after exam-week gap**
 
-> **Catch-up session.** Took a 2-week break for finals + capstone polish + LinkedIn launch. Resumed with a deliberate "variety + volume" run. Hit 2x the original 10-problem goal across DP, Bit Manipulation, Prefix Sum, Matrix, Enumeration, Simulation, and SQL — and added 2 Mediums.
+> **Catch-up session.** Took a 2-week break for finals + capstone polish + LinkedIn launch. Resumed with deliberate "variety + volume" run. Hit 2x the original 10-problem goal across DP, Bit Manipulation, Prefix Sum, Matrix, Enumeration, Simulation, and SQL.
 
 ### Easy — DP / Bit Manipulation (2)
 
@@ -269,7 +272,7 @@
 
 ## **Day 9 | June 5, 2026 | 10 Problems (7 Easy + 3 Medium) — Strings + Tree DFS**
 
-> **Day 2 of comeback.** Focused on strings (5 problems building from adjacent-pair to two-pass prefix sums) and tree DFS (5 problems covering all four DFS flavors: read, compare, aggregate, mutate, then composing them for the Medium).
+> **Day 2 of comeback.** Strings (5 problems building from adjacent-pair to two-pass prefix sums) and tree DFS (5 problems covering all four DFS flavors: read, compare, aggregate, mutate, then composing them for the Medium).
 
 ### Easy — String (3)
 
@@ -305,7 +308,7 @@
 
 ## **Day 10 | June 7, 2026 | 5 Problems (4 Easy + 1 Medium) — Hash Table Family (Light Day)**
 
-> **Sustainable pacing.** Low-energy day; deliberately stayed in one pattern family. Five problems covering five distinct shades of hash-table usage: weighted counting, sparse storage, threshold-check, set membership, and partitioned max. The Medium introduced **class design** (`SparseVector`) — the first OOP problem.
+> **Sustainable pacing.** Low-energy day; deliberately stayed in one pattern family. Five problems covering five distinct shades of hash-table usage. The Medium introduced **class design** (`SparseVector`) — the first OOP problem.
 
 ### Easy — Hash Table Variants (4)
 
@@ -326,7 +329,7 @@
 
 ## **Day 11 | June 9, 2026 | 9 Problems (6 Easy + 2 Medium + 1 Hard) — Sorting + DP Sweep ⭐**
 
-> **Biggest day on the log.** Started "low energy" and ended up with 9 problems including 4 DP flavors and the first algorithmic Hard. Today's milestones: first Digit DP, first Catalan-counting problem, first 2D Grid DP, first algorithmic Hard since the SQL Recursive CTE. The constraint-recognition meta-skill is now solid — read the constraints, the algorithm tier becomes obvious.
+> **Biggest day on the log to date.** Started "low energy" and ended up with 9 problems including 4 DP flavors and the first algorithmic Hard. Milestones: first Digit DP, first Catalan-counting problem, first 2D Grid DP, first algorithmic Hard since the SQL Recursive CTE.
 
 ### Easy — Sorting (3)
 
@@ -361,6 +364,42 @@
 | # | Title | Pattern | Date | Link |
 |---|-------|---------|------|------|
 | 1255 | Maximum Score Words Formed by Letters | DP / Bitmask Subset Enumeration ⭐ | 2026-06-09 | [View](problems/hard/1255-maximum-score-words-formed-by-letters.md) ✅ |
+
+---
+
+## **Day 12 | June 10, 2026 | 5 Problems (4 Easy + 1 Medium) — Linked List + Simulation + Graph + Math ⭐**
+
+> **Filled THREE major gaps in one day.** Started Linked Lists (was 0 → now 2 including a Medium with the sqrt(n) gem). Started Graph problems (was 0 → now 1, learning adjacency matrix). Reinforced "mathematical collapse" pattern recognition. Three pattern firsts in a single day.
+
+### Easy — Linked List (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 3263 | Convert Doubly Linked List to Array I | Linked List / Traversal Template ⭐ first LL | 2026-06-10 | [View](problems/easy/3263-convert-doubly-linked-list-to-array-i.md) ✅ |
+
+### Easy — Simulation (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 3687 | Library Late Fee Calculator | Simulation / Tiered Piecewise / Stateless Map → Sum | 2026-06-10 | [View](problems/easy/3687-library-late-fee-calculator.md) ✅ |
+
+### Medium — Linked List (1) ⭐ first LL Medium + sqrt(n) decomposition
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 1265 | Print Immutable Linked List in Reverse | Linked List / Recursion + Stack + sqrt(n) ⭐ | 2026-06-10 | [View](problems/medium/1265-print-immutable-linked-list-in-reverse.md) ✅ |
+
+### Easy — Graph (1) ⭐ first Graph problem
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 3898 | Find the Degree of Each Vertex | Graph / Adjacency Matrix / Row Sum ⭐ | 2026-06-10 | [View](problems/easy/3898-find-the-degree-of-each-vertex.md) ✅ |
+
+### Easy — Math (1)
+
+| # | Title | Pattern | Date | Link |
+|---|-------|---------|------|------|
+| 3512 | Minimum Operations to Make Array Sum Divisible by K | Math / Modular Arithmetic / Mathematical Collapse | 2026-06-10 | [View](problems/easy/3512-minimum-operations-to-make-array-sum-divisible-by-k.md) ✅ |
 
 ---
 
@@ -411,6 +450,7 @@
 | Matrix / Diagonal | 1 | 0 | 0 | 1 |
 | Simulation / Bit Packing | 1 | 0 | 0 | 1 |
 | Simulation / String | 1 | 0 | 0 | 1 |
+| **Simulation / Tiered Function** | 1 | 0 | 0 | 1 |
 | String / Adjacent Pair | 1 | 0 | 0 | 1 |
 | String / Filter | 1 | 0 | 0 | 1 |
 | String / Indexed Filter | 1 | 0 | 0 | 1 |
@@ -424,6 +464,10 @@
 | Tree DFS / Aggregation | 1 | 0 | 0 | 1 |
 | Tree DFS / Mutation | 1 | 0 | 0 | 1 |
 | Tree DFS / Inorder + Rebuild | 0 | 1 | 0 | 1 |
+| **Linked List / Traversal** ⭐ | 1 | 0 | 0 | 1 |
+| **Linked List / Recursion + sqrt(n)** ⭐ | 0 | 1 | 0 | 1 |
+| **Graph / Adjacency Matrix** ⭐ | 1 | 0 | 0 | 1 |
+| **Math / Modular Collapse** | 1 | 0 | 0 | 1 |
 | SQL/Bitwise | 0 | 1 | 0 | 1 |
 | SQL/JOIN | 1 | 0 | 0 | 1 |
 | SQL/Window Fn | 1 | 0 | 0 | 1 |
@@ -436,7 +480,7 @@
 | Matrix/Row Sum | 1 | 0 | 0 | 1 |
 | Matrix/Sliding Win | 1 | 0 | 0 | 1 |
 | Matrix/Spiral | 0 | 1 | 0 | 1 |
-| **Total** | **61** | **22** | **2** | **85** |
+| **Total** | **65** | **23** | **2** | **90** |
 
 ---
 
@@ -445,7 +489,7 @@
 ### Day 1-2: Arrays & Sorting
 - Hash map for O(n) lookups
 - Two-pointer technique for sorted arrays
-- Sorting with custom keys in Python
+- Sorting with custom keys
 - Greedy algorithms
 
 ### Day 3: Trees & DFS
@@ -466,7 +510,7 @@
 - 2D sliding window (3×3)
 - Spiral traversal with direction vectors
 - Step size patterns (1,1,2,2,3,3...)
-- **(Day 8)** Diagonal indexing: `(i, i)` primary, `(i, n-1-i)` secondary; odd-n requires center-cell correction
+- **(Day 8)** Diagonal indexing: `(i, i)` primary, `(i, n-1-i)` secondary
 
 ### Day 5: Greedy Algorithm
 - Max digit = bottleneck (deci-binary)
@@ -477,120 +521,71 @@
 - Bucketing + greedy filling
 
 ### Day 6: Hash-Based Counting
-- Streaming hash map for pair counting: `ans += counts[x]; counts[x] += 1`
+- Streaming hash map for pair counting
 - Set membership for filter-preserving-order
 - Distinct-count collapse
 
 ### Day 8: Multi-Pattern Recovery Session (20 problems)
-
-**DP & Recurrences**
 - DP / Fibonacci: two-variable rolling
-- Bit Manipulation DP: `ans[i] = ans[i>>1] + (i & 1)` for popcount in O(n)
-
-**Bit Manipulation Toolkit**
+- Bit Manipulation DP for popcount in O(n)
 - XOR + popcount template for Hamming distance
-- OR-shift identity for subset XOR sum
 - Bitmask as set: 26-bit integer = set of lowercase letters
-- Adjacent-pair operations: `zip(nums, nums[1:])`
 - Brian Kernighan trick: `x &= x - 1` clears lowest set bit
-
-**Sorting & Greedy**
 - Greedy pairing (LC 561): sort, take every even index
 - Counting sort O(n + R) for bounded ranges
-
-**Permutation & Frequency**
 - Permutation frequency trick (LC 2657): `freq[v] ≤ 2`
 - Increment-then-check pattern
-
-**Prefix Sum**
 - Store-before-update pattern
-- `itertools.accumulate` for any associative reduction
-
-**Simulation & In-Place Tricks**
-- Bit-packing for O(1) space (LC 1920): `cell = old + n*new`
+- `itertools.accumulate` for associative reduction
+- Bit-packing for O(1) space (LC 1920)
 - "Stateless map → sum" pattern
 
-**SQL Patterns**
-- WHERE filter, CROSS JOIN, GROUP BY + COUNT DISTINCT, Anti-Join
-
 ### Day 9: Strings + Tree DFS Toolkit (10 problems)
-
-**String / Pairwise Aggregation**
 - Adjacent-pair template: `sum(op(a, b) for a, b in zip(seq, seq[1:]))`
-
-**String / Filtering**
 - Filter pattern: `''.join(c for c in s if predicate(c))`
 - CRITICAL: never use `+=` in loop to build string — O(n²)
-
-**String / Indexed Iteration**
-- `enumerate` for both index and value
-
-**String / 2D Coordinates**
 - Manhattan distance + position lookup (LC 3846)
-
-**String / Prefix Sum / Two-Pass Sweep**
 - Two-pass directional sweep (LC 1769)
-
-**Tree DFS — The Four Flavors**
-- DFS to produce a list (LC 94 Inorder)
-- DFS to compare two trees (LC 100 Same Tree)
-- DFS to aggregate (LC 104 Max Depth) — `1 + max(L, R)`
-- DFS to mutate the tree (LC 226 Invert) — Python tuple-swap
-
-**Tree DFS — Composition (Medium)**
+- **Tree DFS — The Four Flavors:** list (LC 94), compare (LC 100), aggregate (LC 104), mutate (LC 226)
 - Two-phase pattern (LC 1382 Balance BST): inorder → sorted → middle-as-root rebuild
 - Overflow-safe middle formula: `start + (end - start) // 2`
+- Debugging: method name consistency, root.left vs root.right typos, sign flips
 
-**Debugging Lessons**
-- Method name consistency
-- Copy-paste typo on `root.left` vs `root.right`
-- Sign flip in math formulas
-
-### Day 10: Hash Table Family Deep Dive (5 problems, light day)
+### Day 10: Hash Table Family Deep Dive (5 problems)
 
 **Five distinct shades of hash-table:**
 - LC 3945 Digit Frequency: Counter for weighted sum
 - LC 1570 Sparse Vector: Hash map as sparse storage + class design (first OOP)
-- LC 3289 Sneaky Numbers: increment-then-check (third encounter)
+- LC 3289 Sneaky Numbers: increment-then-check
 - LC 771 Jewels and Stones: set as fast lookup; `sum(boolean_generator)` idiom
 - LC 3541 Vowels/Consonants: Counter + `max(default=0)`
 
-**Cross-pattern recognition** — Day 10 explicitly drilled "same family, different surface forms." When you see a new problem, the first question is now: "which hash-table sub-pattern fits here?"
+### Day 11: Sorting + DP Sweep ⭐ (9 problems, 4 DP flavors)
 
-### Day 11: Sorting + DP Sweep — BIGGEST DAY ⭐ (9 problems, 4 DP flavors)
+**Sorting Toolkit:**
+- LC 1637: Drop a dimension (y irrelevant), then sort
+- LC 3667: Don't sort by raw value — use `key=abs`
+- LC 1365: Don't comparison-sort — count-and-prefix when range bounded
 
-**Sorting Toolkit (3 problems)**
+**Dynamic Programming Family — Four Different Flavors:**
 
-| Problem | Sorting twist |
-|---------|---------------|
-| LC 1637 | Drop a dimension (y irrelevant), then sort to enable neighbor reasoning |
-| LC 3667 | Don't sort by raw value — use `key=abs` transform |
-| LC 1365 | Don't comparison-sort at all — count-and-prefix when value range bounded |
-
-The "sorting" pattern family in microcosm — choosing what to sort by, whether to sort at all, what to do with the sorted result.
-
-**Dynamic Programming Family — Four Different Flavors**
-
-| Problem | DP shape | Recurrence variable |
-|---------|----------|----------------------|
+| Problem | DP shape | State variable |
+|---------|----------|----------------|
 | **LC 3751 Waviness** | **Digit DP** ⭐ | Position in digit string |
 | **LC 894 FBTs** | **Structural DP** ⭐ | Tree size; Catalan numbers |
 | **LC 1255 Words from Letters** | **Bitmask DP** ⭐ (Hard) | Subset of items |
 | **LC 1277 Count Squares** | **2D Grid DP** ⭐ | Cell coordinates (i, j) |
 
-**These are FOUR DIFFERENT DP shapes**, each with its own state space and transition function. Shared skeleton: **define minimal state → write transition → memoize/tabulate → aggregate**.
-
 **Key DP insights:**
+- **Digit DP framework:** `solve(R) - solve(L-1)` range decomposition
+- **Catalan numbers** (1, 1, 2, 5, 14, 42): binary trees, parentheses, triangulations
+- **Bitmask subset enumeration:** `for mask in range(1 << n)` — constraint `n ≤ 20` signals
+- **"DP cell = direct answer per cell" trick (LC 1277)**
 
-- **Digit DP framework:** `solve(R) - solve(L-1)` range decomposition. State: `(pos, prev_digits, isLimit, isLeading)`. Return `(count, sum)` tuple when summing properties (not just counting).
-- **Catalan numbers** (1, 1, 2, 5, 14, 42, 132): appear in binary trees, parentheses, triangulations. If you see this sequence, you're in Catalan-land.
-- **Bitmask subset enumeration:** `for mask in range(1 << n)` — constraint `n ≤ 20` is the signal. Multi-dimensional knapsack handled via per-subset feasibility check.
-- **"DP cell = direct answer per cell" trick (LC 1277):** when each `dp[i][j]` independently contributes, aggregation is sum (or max). Same recurrence as LC 221 (Maximal Square) — only the aggregation differs.
+**Constraint-recognition meta-skill:**
 
-**Constraint-recognition meta-skill (THE big lesson from today):**
-
-| Constraint pattern | Implied algorithm tier |
-|--------------------|--------------------------|
+| Constraint | Implied algorithm tier |
+|------------|--------------------------|
 | n ≤ 12 | Brute permutations (n!) |
 | n ≤ 20 | **Subset bitmask (2^n)** |
 | n ≤ 100 | O(n³) DP |
@@ -598,28 +593,76 @@ The "sorting" pattern family in microcosm — choosing what to sort by, whether 
 | n ≤ 10⁶ | O(n) or O(n log n) |
 | n ≤ 10⁹ | O(log n), math, or O(1) |
 
-**Read constraints → identify tier → implement.** This is one of the most reused interview meta-skills.
+### Day 12: Linked List + Graph + Math ⭐ (5 problems — THREE pattern firsts)
 
-**Hash Table closer (2 problems)**
+**Linked List Toolkit (FIRST LL problems on log)**
 
-- **LC 3450 Bench:** `defaultdict(set)` for group-by + distinct count. SQL `GROUP BY ... COUNT(DISTINCT)` in Python form.
-- **LC 3146 Permutation Diff:** Hash map for position lookup. The "indexed dict" `{ch: i for i, ch in enumerate(s)}` is the canonical inversion pattern.
+| Problem | Template |
+|---------|----------|
+| **LC 3263** Doubly LL to Array | **`while curr: ...; curr = curr.next`** — THE traversal template |
+| **LC 1265** Immutable LL Reverse | **Recurse first, act after** OR explicit stack OR **sqrt(n) decomposition** |
 
-**`max(..., default=0)` idiom — third encounter** (LC 3541, LC 3450, LC 894 indirectly). The clean Python form for "best of possibly-empty iterable with sentinel."
+**The `while-curr` template — foundation of every LL problem:**
 
-**Cross-pattern recognition matured today:**
+```python
+curr = head
+while curr:
+    # process curr
+    curr = curr.next
+```
 
-The hash-table family across the log now spans 8+ sub-patterns:
-- Streaming counter for pair counting (LC 1512)
-- Counter + threshold (LC 2657, 3289)
-- Counter for weighted sum (LC 3945)
-- Hash map as sparse storage with OOP (LC 1570)
-- Set for fast lookup (LC 771)
-- Counter + partitioned max (LC 3541)
-- Group-by + set (LC 3450)
-- Position lookup (LC 3146)
+**sqrt(n) decomposition (LC 1265 follow-up) — the gem:**
 
-You can now identify which variant a new hash-table problem needs based on question framing alone.
+When facing time-space tradeoff between:
+- O(n²) time, O(1) space
+- O(n) time, O(n) space
+
+There's often a sweet spot at **O(n) time, O(sqrt(n)) space** — divide into sqrt(n) chunks of size sqrt(n). Same technique appears in Mo's algorithm, sqrt block decomposition, segment trees with lazy propagation.
+
+**Graph Toolkit (FIRST Graph problem on log)**
+
+| Problem | Insight |
+|---------|---------|
+| **LC 3898** Vertex Degrees | **Degree = row sum** in adjacency matrix |
+
+**Adjacency Matrix vs Adjacency List:**
+
+| Representation | Space | Edge query | Iterate neighbors |
+|----------------|-------|------------|-------------------|
+| Adjacency matrix | O(V²) | **O(1)** | O(V) |
+| Adjacency list | O(V + E) | O(deg(i)) | **O(deg(i))** |
+
+**Graph construction template** (for future problems with edges list):
+
+```python
+from collections import defaultdict
+graph = defaultdict(list)
+for u, v in edges:
+    graph[u].append(v)
+    graph[v].append(u)        # Undirected
+```
+
+**The handshake lemma:** sum of all degrees = 2 × (number of edges).
+
+**Mathematical Collapse Pattern (LC 3512)**
+
+> "Minimum operations where each op changes a quantity by a fixed amount, target is divisibility" → **`current % k`**
+
+Signs of mathematical collapse:
+1. Operation changes one quantity by a fixed amount
+2. Goal is divisibility/parity/specific value
+3. Hint mentions modulo, sum, or simple expression
+4. Small constraint ranges (no DP/BFS needed)
+
+**Problems on the log with similar "collapse" framing:** LC 2160 (Day 5), LC 1689 (Day 5), LC 1051 (Day 8), LC 2050 (Day 2), LC 2843 (Day 8), LC 3512 (Day 12).
+
+**Cumulative pattern: "Stateless map → sum" (9+ encounters)**
+
+```python
+total = sum(f(x) for x in items)
+```
+
+Today's LC 3687 (tiered piecewise) reinforced. LC 3512 took it even further — `sum(nums) % k` collapses to one expression.
 
 ---
 
@@ -637,6 +680,10 @@ Each problem file includes:
 
 ---
 
-**Last Updated:** June 9, 2026 | 85 Problems Solved ✅
+**Last Updated:** June 10, 2026 | 90 Problems Solved ✅
 
-**Next:** W3 — Sliding Window & Stack (Medium-difficulty pattern drill); also: Binary Search depth, Linked Lists (still 0!), Graph BFS/DFS, Heap/Priority Queue. Strongly recommend a review day before tackling new pattern families — Days 8-11 added 44 problems across many patterns; consolidation will pay off more than volume right now.
+**Next:** Continue Linked List family with **LC 206 Reverse Linked List** (three-pointer template), **LC 876 Middle of LL** (slow/fast pointers), **LC 21 Merge Two Sorted Lists** (dummy node template). After three more LL problems, the LL template trifecta (traversal, reversal, slow/fast) is locked in.
+
+Also pending: Sliding Window & Stack pattern drill, Binary Search depth, Heap/Priority Queue (still 0!), Graph BFS/DFS (have matrix degree now; next step: build adjacency list, traverse).
+
+**Strongly recommend a review day before tackling new pattern families** — Days 8-12 added 49 problems across many patterns; consolidation will pay off more than volume. Active recall + spaced repetition on the trickier patterns (Digit DP, sqrt(n) decomposition, Catalan structure, bitmask subset enumeration) will help cement them.
