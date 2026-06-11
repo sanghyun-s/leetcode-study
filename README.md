@@ -21,7 +21,7 @@
 | *(Gap: final exams + app projects)* | 05/20–06/03 | — | — | — | Returned 6/4 — honest log | 📝 Noted |
 | Day 8 | 06/04 | 18 | 2 | 0 | Mixed (DP, Bit, Prefix Sum, Matrix, SQL, Simulation) | ✅ Complete |
 | Day 9 | 06/05 | 7 | 3 | 0 | Strings + Tree DFS | ✅ Complete |
-| Day 10 (light) | 06/07 | 4 | 1 | 0 | Hash Table Family | ✅ Complete |
+| Day 10 | 06/07 | 4 | 1 | 0 | Hash Table Family | ✅ Complete |
 | Day 11 ⭐ | 06/09 | 6 | 2 | 1 | Sorting + DP (4 flavors) + Hash Table | ✅ Complete |
 | Day 12 ⭐ | 06/10 | 4 | 1 | 0 | Linked List + Simulation + Graph + Math | ✅ Complete |
 
